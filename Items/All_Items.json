@@ -3,7 +3,7 @@
         "sources": [
             {
                 "json": "M:Gen_Items",
-                "abbreviation": "M:G_Items",
+                "abbreviation": "M:Gen_Items",
                 "full": "Moon: Generic_Items",
                 "authors": [
                     "Moon"
@@ -17,7 +17,7 @@
             },
             {
                 "json": "M:Space_Items",
-                "abbreviation": "M:S_Items",
+                "abbreviation": "M:Space_Items",
                 "full": "Moon: Space_Items",
                 "authors": [
                     "Moon"
