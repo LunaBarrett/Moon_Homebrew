@@ -1,0 +1,36 @@
+"item": [
+    {
+        "name": "",
+        "source": "",
+        "page": "",
+        "type": "",
+        "rarity": "none",
+        "entries": [
+            ""
+        ],
+        "ability": {
+            "str": ,
+            "dex": ,
+            "con": ,
+            "wis": ,
+            "int": ,
+            "cha": ,
+        },
+        "age": "",
+        "attachedSpells": [
+            "example 1",
+            "example 2"
+        ],
+        "bonusSpellAttack": "",
+        "bonusAC": "",
+        "bonusWeapon": "",
+        "bonusWeaponAttack": "",
+        "bonusWeaponDamage": "",
+        "bonusSavingThrow": "",
+        "carryingCapacity": 0,
+        "charges": 0,
+        "recharge": "round/restShort/restLong,dawn,dusk,midnight",
+        "curse": 
+
+    }
+]
