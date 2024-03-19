@@ -73,7 +73,7 @@
    },
    {
         "name": "Onyx Ring of Potential",
-        "source": "Moon:Gen_Items",
+        "source": "M:Gen_Items",
         "rarity": "none",
         "value": 1,
         "weight": 0.1,
