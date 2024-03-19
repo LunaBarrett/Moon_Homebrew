@@ -35,7 +35,7 @@
     },
     "item":[{
         "name": "King's Trident of Returning Woe" ,
-        "source": "M:Spell_Items",
+        "source": "M:Space_Items",
         "rarity": "Rare",
         "entries": 
        [ 
@@ -54,7 +54,7 @@
    },
    {    
        "name": "Queens's Trident of Returning Fury" ,
-        "source": "M:Spell_Items",
+        "source": "M:Space_Items",
         "rarity": "Rare",
         "entries": 
        [
