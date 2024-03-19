@@ -2,8 +2,8 @@
     "_meta": {
         "sources": [
             {
-                "json": "M: Gen_Items",
-                "abbreviation": "M: G_Items",
+                "json": "M:Gen_Items",
+                "abbreviation": "M:G_Items",
                 "full": "Moon: Generic_Items",
                 "authors": [
                     "Moon"
@@ -16,8 +16,8 @@
                 "targetSchema": "1.0"
             },
             {
-                "json": "M: Space_Items",
-                "abbreviation": "M: S_Items",
+                "json": "M:Space_Items",
+                "abbreviation": "M:S_Items",
                 "full": "Moon: Space_Items",
                 "authors": [
                     "Moon"
@@ -35,7 +35,7 @@
     },
     "item":[{
         "name": "King's Trident of Returning Woe" ,
-        "source": "M: Spell_Items",
+        "source": "M:Spell_Items",
         "rarity": "Rare",
         "entries": 
        [ 
@@ -54,7 +54,7 @@
    },
    {    
        "name": "Queens's Trident of Returning Fury" ,
-        "source": "M: Spell_Items",
+        "source": "M:Spell_Items",
         "rarity": "Rare",
         "entries": 
        [
@@ -73,7 +73,7 @@
    },
    {
         "name": "Onyx Ring of Potential",
-        "source": "Moon: Gen_Items",
+        "source": "Moon:Gen_Items",
         "rarity": "none",
         "value": 1,
         "weight": 0.1,
