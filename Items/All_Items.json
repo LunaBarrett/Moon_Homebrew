@@ -1,0 +1,86 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "M: Gen_Items",
+                "abbreviation": "M: G_Items",
+                "full": "Moon: Generic_Items",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "1.0",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M: Space_Items",
+                "abbreviation": "M: S_Items",
+                "full": "Moon: Space_Items",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "1.0",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "item":[{
+        "name": "King's Trident of Returning Woe" ,
+        "source": "M: Spell_Items",
+        "rarity": "Rare",
+        "entries": 
+       [ 
+           "You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you make a ranged attack using this weapon, a phantasmal blue outline of the trident is shot out, The Trident remains in the users hand.", "King's Lament: If the wielder of the {@item Queen's Trident of Returning Fury|L:Spelljammer} drops to 0 hp within 60 feet of the you, you gain temporary hitpoints equal to PB number of hitdice, Alongside this, you fall into sorrow, with all attacks within 30 feet having dissadvantage, however you loose all buffs granted by allies because of your sadness."
+       ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+             "V","T"
+       ],
+        "baseItem": "Trident|phb",
+        "dmg1": "1d6",
+        "dmg2": "1d8",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+   },
+   {    
+       "name": "Queens's Trident of Returning Fury" ,
+        "source": "M: Spell_Items",
+        "rarity": "Rare",
+        "entries": 
+       [
+           "You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you make a ranged attack using this weapon, a phantasmal blue outline of the trident is shot out, The Trident remains in the users hand.", "Queen's Fury: If the wielder of the {@item King's Trident of Returning Woe|L:Spelljammer} drops to 0 hp within 60 feet of the you, you gain temporary hitpoints equal to PB number of hitdice, Alongside this, you fall into mindless fury, gaining an extra attack per round that can only be used with a melee attack with this weapon, However if there are no enemies within your movement speed, you lash out, attacking the closest thing to you including allies. "
+       ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+           "V","T"
+        ],
+        "baseItem": "Trident|phb",
+        "dmg1": "1d6",
+        "dmg2": "1d8",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+   },
+   {
+        "name": "Onyx Ring of Potential",
+        "source": "Moon: Gen_Items",
+        "rarity": "none",
+        "value": 1,
+        "weight": 0.1,
+        "entries": [
+            "a simple metal band with a smooth onyx set into it, it becons to you to put it on to draw out its power."
+        ]
+        
+    }
+   ]
+}
