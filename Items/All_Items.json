@@ -78,9 +78,29 @@
         "value": 1,
         "weight": 0.1,
         "entries": [
-            "a simple metal band with a smooth onyx set into it, it becons to you to put it on to draw out its power."
+            "a simple metal band with a smooth onyx set into it, it beckons to you to put it on to draw out its power."
         ]
         
+    },
+    {
+        "name": "Greataxe of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Rare",
+        "entries": 
+        [
+            "greataxe that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "2H","H","R"
+        ],
+        "baseItem": "Greataxe|phb",
+        "dmg1": "1d12",
+        "dmgType1": "S",
+        "dmg2": "1d12",
+        "dmgType2": "P",
+        "bonusWeapon": "+1"
     }
    ]
 }
