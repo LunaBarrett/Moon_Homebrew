@@ -97,9 +97,8 @@
         ],
         "baseItem": "Greataxe|phb",
         "dmg1": "1d12",
-        "dmgType1": "S",
+        "dmgType": "S",
         "dmg2": "1d12",
-        "dmgType2": "P",
         "bonusWeapon": "+1"
     }
    ]
