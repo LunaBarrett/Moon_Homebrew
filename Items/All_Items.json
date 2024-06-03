@@ -560,6 +560,98 @@
         "dmg1": "1d4",
         "dmgType": "S",
         "bonusWeapon": "+1"
+    },
+    {
+        "name": "Dagger of Acid",
+        "source": "M:Space_Items",
+        "baseItem": "dagger|phb",
+        "type": "M",
+        "tier": "major",
+        "rarity": "rare",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "You can use a bonus action to cause thick, orange acid to coat the blade. The acid remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} acid damage. The dagger can't be used this way again until the next dawn."
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Dagger of Frost",
+        "source": "M:Space_Items",
+        "baseItem": "dagger|phb",
+        "type": "M",
+        "tier": "major",
+        "rarity": "rare",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "You can use a bonus action to cause cold, brittle frost to coat the blade. The frost remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} cold damage. The dagger can't be used this way again until the next dawn."
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },    
+    {
+        "name": "Dagger of Flames",
+        "source": "M:Space_Items",
+        "baseItem": "dagger|phb",
+        "type": "M",
+        "tier": "major",
+        "rarity": "rare",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "You can use a bonus action to cause swirling, bright flames to coat the blade. The flames remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} fire damage. The dagger can't be used this way again until the next dawn."
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },    
+    {
+        "name": "Dagger of Sparks",
+        "source": "M:Space_Items",
+        "baseItem": "dagger|phb",
+        "type": "M",
+        "tier": "major",
+        "rarity": "rare",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "You can use a bonus action to cause crackling, energetic sparks to coat the blade. The sparks remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} lightning damage. The dagger can't be used this way again until the next dawn."
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
     }
    ]
 }
