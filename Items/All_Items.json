@@ -83,12 +83,104 @@
         
     },
     {
-        "name": "Greataxe of Reaching",
+        "name": "Battleaxe of Reaching",
         "source": "M:Space_Items",
-        "rarity": "Rare",
+        "rarity": "Uncommon",
         "entries": 
         [
-            "greataxe that has a longer reach"
+            "Battleaxe that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "V","R"
+        ],
+        "baseItem": "Battleaxe|phb",
+        "dmg1": "1d8",
+        "dmg2": "1d10",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Club of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Club that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "L","R"
+        ],
+        "baseItem": "Club|phb",
+        "dmg1": "1d4",
+        "dmgType": "B",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Dagger of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Dagger that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "F","L","T","R"
+        ],
+        "range": "20/60",
+        "baseItem": "Dagger|phb",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Flail of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Flail that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "R"
+        ],
+        "baseItem": "Flail|phb",
+        "dmg1": "1d8",
+        "dmgType": "B",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Glave of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Glave that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "H","2H","R"
+        ],
+        "baseItem": "Glave|phb",
+        "dmg1": "1d10",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Greataxe of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Greataxe that has a longer reach"
         ],
         "reqAttune": true,
         "weaponCategory": "martial",
@@ -97,6 +189,375 @@
         ],
         "baseItem": "Greataxe|phb",
         "dmg1": "1d12",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Greatclub of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Greatclub that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "2H","R"
+        ],
+        "baseItem": "Greatclub|phb",
+        "dmg1": "1d8",
+        "dmgType": "B",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Greatsword of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Greatsword that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "2H","H","R"
+        ],
+        "baseItem": "Greatsword|phb",
+        "dmg1": "2d6",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Halberd of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Halberd that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "H","2H","R"
+        ],
+        "baseItem": "Halberd|phb",
+        "dmg1": "1d10",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Handaxe of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Handaxe that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "L","T","R"
+        ],
+        "range": "20/60",
+        "baseItem": "Handaxe|phb",
+        "dmg1": "1d6",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Light Hammer of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Light Hammer that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "L","T","R"
+        ],
+        "range": "20/60",
+        "baseItem": "Light Hammer|phb",
+        "dmg1": "1d4",
+        "dmgType": "B",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Longsword of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Longsword that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "V","R"
+        ],
+        "baseItem": "Longsword|phb",
+        "dmg1": "1d8",
+        "dmg2": "1d10",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Mace of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Mace that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "R"
+        ],
+        "baseItem": "Mace|phb",
+        "dmg1": "1d6",
+        "dmgType": "B",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Maul of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Maul that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "2H","H","R"
+        ],
+        "baseItem": "Maul|phb",
+        "dmg1": "2d6",
+        "dmgType": "B",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Morningstar of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Morningstar that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "R"
+        ],
+        "baseItem": "Morningstar|phb",
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Pike of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Pike that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "H","2H","R"
+        ],
+        "baseItem": "Pike|phb",
+        "dmg1": "1d10",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Quaterstaff of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Quaterstaff that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "V","R"
+        ],
+        "baseItem": "Quaterstaff|phb",
+        "dmg1": "1d6",
+        "dmg2": "1d8",
+        "dmgType": "B",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Rapier of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Rapier that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "F","R"
+        ],
+        "baseItem": "Rapier|phb",
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Scimitar of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Scimitar that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "F","L","R"
+        ],
+        "baseItem": "Scimitar|phb",
+        "dmg1": "1d6",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Shortsword of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Shortsword that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "F","L","R"
+        ],
+        "baseItem": "Shortsword|phb",
+        "dmg1": "1d6",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Sickle of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Sickle that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "L","R"
+        ],
+        "baseItem": "Sickle|phb",
+        "dmg1": "1d4",
+        "dmgType": "S",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Spear of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Spear that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "simple",
+        "property": [
+            "V","T","R"
+        ],
+        "range": "20/60",
+        "baseItem": "Spear|phb",
+        "dmg1": "1d6",
+        "dmg2": "1d8",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Trident of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Trident that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "V","T","R"
+        ],
+        "range": "20/60",
+        "baseItem": "Trident|phb",
+        "dmg1": "1d6",
+        "dmg2": "1d8",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "War Pick of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "War Pick that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "R"
+        ],
+        "baseItem": "War Pick|phb",
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Warhammer of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Warhammer that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "V","R"
+        ],
+        "baseItem": "Warhammer|phb",
+        "dmg1": "1d8",
+        "dmg2": "1d10",
+        "dmgType": "B",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Whip of Reaching",
+        "source": "M:Space_Items",
+        "rarity": "Uncommon",
+        "entries": 
+        [
+            "Whip that has a longer reach"
+        ],
+        "reqAttune": true,
+        "weaponCategory": "martial",
+        "property": [
+            "F","R"
+        ],
+        "baseItem": "Whip|phb",
+        "dmg1": "1d4",
         "dmgType": "S",
         "bonusWeapon": "+1"
     }
