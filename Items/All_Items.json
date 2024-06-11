@@ -25,13 +25,13 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "1.4",
+                "version": "1.5",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1718115723
+        "dateLastModified": 1718115942
     },
     "variant":[
         {
@@ -268,7 +268,7 @@
         "entries":[
             "An beautifully iridecent orb of light eminating out of a crystaline core, crafted from {{@item Crystallised Sunlight}, {{@item Mimic's Blood}, and a {{@item Lunar Dragon's Scale}.",
             "The Beacon emits 150 feet of bright light and 150 feet of dim light, the light it emits shifts between deep oranges, reds, pinks, and yellows, mimicking a sunset.",
-            "This light emmited drives back the Ooze plaguing the cosmos, any creature with the Ooze type under the control of ??? within 150 feet suffers the effect of {@classFeature Turn Undead|PHB} with a save DC of 21, automaticaly failing the save if the creature has a CR of 10 or lower."
+            "This light emmited drives back the Ooze plaguing the cosmos, any creature with the Ooze type under the control of ??? within 150 feet suffers the effect of {@classFeature Channel Divinity: Turn Undead|PHB} with a save DC of 21, automaticaly failing the save if the creature has a CR of 10 or lower."
         ],
         "wondrous":true,
         "weight":50,
