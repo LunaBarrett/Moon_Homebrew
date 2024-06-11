@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "1.2",
+                "version": "1.3",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -25,13 +25,13 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "1.2",
+                "version": "1.3",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1718113640
+        "dateLastModified": 1718113938
     },
     "variant":[
         {
@@ -55,10 +55,10 @@
             "inherits": {
                 "nameSuffix": " of Reaching",
                 "source":"M:Gen_Items",
-                "rarity":"Uncommon",
+                "rarity":"uncommon",
                 "entries":[
                     "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "This Weapon, due to its organic nature can stretch as swung or thrust, this grants an addition 5 feet to your reach when you attack with it."
+                    "This weapon, due to its organic nature, can stretch as it is swung or thrust. It adds an additional 5 feet to your reach when you attack with it."
                 ],
                 "reqAttune": false,
                 "bonusWeapon":"+1"
@@ -70,7 +70,7 @@
     "item":[{
         "name": "King's Trident of Returning Woe" ,
         "source": "M:Space_Items",
-        "rarity": "Rare",
+        "rarity": "rare",
         "entries": 
        [ 
            "You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you make a ranged attack using this weapon, a phantasmal blue outline of the trident is shot out, The Trident remains in the users hand.", "King's Lament: If the wielder of the {@item Queen's Trident of Returning Fury|L:Spelljammer} drops to 0 hp within 60 feet of the you, you gain temporary hitpoints equal to PB number of hitdice, Alongside this, you fall into sorrow, with all attacks within 30 feet having dissadvantage, however you loose all buffs granted by allies because of your sadness."
@@ -89,7 +89,7 @@
    {    
        "name": "Queens's Trident of Returning Fury" ,
         "source": "M:Space_Items",
-        "rarity": "Rare",
+        "rarity": "rare",
         "entries": 
        [
            "You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you make a ranged attack using this weapon, a phantasmal blue outline of the trident is shot out, The Trident remains in the users hand.", "Queen's Fury: If the wielder of the {@item King's Trident of Returning Woe|L:Spelljammer} drops to 0 hp within 60 feet of the you, you gain temporary hitpoints equal to PB number of hitdice, Alongside this, you fall into mindless fury, gaining an extra attack per round that can only be used with a melee attack with this weapon, However if there are no enemies within your movement speed, you lash out, attacking the closest thing to you including allies. "
@@ -122,7 +122,7 @@
         "baseItem": "dagger|phb",
         "type": "M",
         "tier": "major",
-        "rarity": "Rare",
+        "rarity": "rare",
         "entries": [
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
             "You can use a bonus action to cause thick, orange acid to coat the blade. The acid remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} acid damage. The dagger can't be used this way again until the next dawn."
@@ -145,7 +145,7 @@
         "baseItem": "dagger|phb",
         "type": "M",
         "tier": "major",
-        "rarity": "Rare",
+        "rarity": "rare",
         "entries": [
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
             "You can use a bonus action to cause cold, brittle frost to coat the blade. The frost remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} cold damage. The dagger can't be used this way again until the next dawn."
@@ -168,7 +168,7 @@
         "baseItem": "dagger|phb",
         "type": "M",
         "tier": "major",
-        "rarity": "Rare",
+        "rarity": "rare",
         "entries": [
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
             "You can use a bonus action to cause swirling, bright flames to coat the blade. The flames remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} fire damage. The dagger can't be used this way again until the next dawn."
@@ -191,7 +191,7 @@
         "baseItem": "dagger|phb",
         "type": "M",
         "tier": "major",
-        "rarity": "Rare",
+        "rarity": "rare",
         "entries": [
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
             "You can use a bonus action to cause crackling, energetic sparks to coat the blade. The sparks remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} lightning damage. The dagger can't be used this way again until the next dawn."
@@ -212,7 +212,7 @@
         "name": "The Gift's Glint",
         "source": "M:Space_Items",
         "tier": "major",
-        "rarity": "Uncommon",
+        "rarity": "uncommon",
         "entries":[
             "You can use an attack to cause a beam of radiant light to shoot foward from the Gift to hit a creature. That creature must succeed on a DC 17 Constitution saving throw or becoming blinded until the start of the creatures next turn"
         ],
@@ -225,7 +225,7 @@
         "name": "The Collector's Hilt",
         "source": "M:Space_Items",
         "tier": "major",
-        "rarity": "Rare",
+        "rarity": "rare",
         "entries":[
             "While attuned to this hilt, your psionic weapons can be manifested or vanished at-will, instead of when you take the Attack action or the following bonus action.",
             "You can use a bonus action on your turn to target a creature with your psionic abilities. Roll a psionic die, and for a number of turns equal to the number rolled you can read its surface level thoughts (as with the {@spell Detect Thoughts|PHB} spell) and, once per turn, learn one of its saving throw modifiers or a condition it is immune to. A creature protected from divination magic (such as with the {@spell Nondetection|PHB} spell) is immune to this effect. The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die.",
