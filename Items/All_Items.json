@@ -33,6 +33,38 @@
         "dateAdded": 0,
         "dateLastModified": 0
     },
+    "variant":[
+        {
+            "name": "Weapon of Reaching",
+            "type": "GV",
+            "requires": [
+                {
+                    "weapon": true,
+                    "type": "M"
+
+                }
+            ],
+            "excludes":{
+                "net": true
+            },
+            "entries":[
+                "TBD"
+            ],
+            "inherits": {
+                "nameSuffix": " of Reaching",
+                "source":"M:Gen_Items",
+                "rarity":"Uncommon",
+                "entries":[
+                    "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "This weapon, due to its organic nature can stretch as swung or thrust, has an addition 5 feet of reach."
+                ],
+                "reqAttune": false,
+                "bonusWeapon":"+1"
+            },
+            "source":"M:Gen_Items",
+            "rarity":"Uncommon"
+        }
+    ],
     "item":[{
         "name": "King's Trident of Returning Woe" ,
         "source": "M:Space_Items",
@@ -81,33 +113,6 @@
             "a simple metal band with a smooth onyx set into it, it beckons to you to put it on to draw out its power."
         ]
         
-    },
-    {
-        "name": "Weapon of Reaching",
-        "type": "GV",
-        "requires": [
-            {
-                "weapon": true
-            }
-        ],
-        "excludes":{
-            "net": true
-        },
-        "entries":[
-            "TBD"
-        ],
-        "inherits": {
-            "nameSufix": "of Reaching",
-            "source":"M:Gen_Items",
-            "rarity":"Uncommon",
-            "entries":[
-                "TBD"
-            ],
-            "reqAttune": true,
-            "bonusWeapon":"+1"
-        },
-        "source":"M:Gen_Items",
-        "rarity":"Uncommon"
     },
     {
         "name": "Dagger of Acid",
@@ -261,7 +266,7 @@
         ]
     },
     {
-        "name": "Luna Dragon's Scale",
+        "name": "Lunar Dragon's Scale",
         "source": "M:Space_Items",
         "entries":[
             "TBD"
