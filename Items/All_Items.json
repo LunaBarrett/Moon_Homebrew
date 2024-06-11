@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "1.0",
+                "version": "1.1",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -25,7 +25,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "1.0",
+                "version": "1.1",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
@@ -56,7 +56,7 @@
                 "rarity":"Uncommon",
                 "entries":[
                     "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "This weapon, due to its organic nature can stretch as swung or thrust, has an addition 5 feet of reach."
+                    "This Weapon, due to its organic nature can stretch as swung or thrust, it adds an addition 5 feet to your reach when you attack with it."
                 ],
                 "reqAttune": false,
                 "bonusWeapon":"+1"
