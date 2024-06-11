@@ -652,6 +652,32 @@
         "dmg1": "1d4",
         "dmgType": "P",
         "bonusWeapon": "+1"
+    },
+    {
+        "name": "The Gift's Glint",
+        "source": "M:Space_Items",
+        "tier": "major",
+        "rarity": "Uncommon",
+        "entries":[
+            "You can use an attack to cause a beam of radiant light to shoot foward from the Gift to hit a creature. That creature must succeed on a DC 17 Constitution saving throw or becoming blinded until the start of the creatures next turn"
+        ],
+        "reqAttune":false,
+        "range":"40/120",
+        "dmg1":"3d8",
+        "dmgType":"R"
+    },
+    {
+        "name": "The Collector's Hilt",
+        "source": "M:Space_Items",
+        "tier": "major",
+        "rarity": "rare",
+        "entries":[
+            "While attuned to this hilt, your psionic weapons can be manifested or vanished at-will, instead of when you take the Attack action or the following bonus action.",
+            "You can use a bonus action on your turn to target a creature with your psionic abilities. Roll a psionic die, and for a number of turns equal to the number rolled you can read its surface level thoughts (as with the {@spell Detect Thoughts|PHB} spell) and, once per turn, learn one of its saving throw modifiers or a condition it is immune to. A creature protected from divination magic (such as with the {@spell Nondetection|PHB} spell) is immune to this effect. The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die.",
+            "As a ten-minute ritual, this hilt can take on the abilities of any magical weapon by being placed over it, destroying the original. Performing this ritual a second time replaces the previous abilities with the abilities of the new magical weapon. Your psychic blades inherit the abilities of the hilt."
+        ],
+        "reqAttune":true,
+        "wonderous": true
     }
    ]
 }
