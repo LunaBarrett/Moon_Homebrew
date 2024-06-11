@@ -677,7 +677,33 @@
             "As a ten-minute ritual, this hilt can take on the abilities of any magical weapon by being placed over it, destroying the original. Performing this ritual a second time replaces the previous abilities with the abilities of the new magical weapon. Your psychic blades inherit the abilities of the hilt."
         ],
         "reqAttune": "by a soulknife rogue",
-        "wonderous": true
+        "wondrous": true
+    },
+    {
+        "name": "Crystallised Sunlight",
+        "source": "M:Space_Items",
+        "rarity": "none",
+        "entries":[
+            "A Fist sized rough gemstone of brilliant swirling orange and yellow hues, said to be solidified sunlight",
+            "While close inspection reveales no magical properties, the Ooze threatening the city of Limbo seems to have an adversion to this material.",
+            "One of the three materials required to craft {@item The Beacon of Illumination}"
+        ],
+        "weight": 0.5,
+        "value": 50
+    },
+    {
+        "name": "The Beacon of Illumination",
+        "source": "M:Space_Items",
+        "entries":[
+            "TBD"
+        ]
+    },
+    {
+        "name": "Medusa's Eyes",
+        "source": "M:Gen_Items",
+        "entries":[
+            "TBD"
+        ]
     }
    ]
 }
