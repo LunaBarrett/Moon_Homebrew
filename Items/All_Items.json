@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "1.1",
+                "version": "1.2",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -25,7 +25,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "1.1",
+                "version": "1.2",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
@@ -48,7 +48,9 @@
                 "net": true
             },
             "entries":[
-                "TBD"
+                "Found mostly in the depths of dungeons, in dragons hoards or amongst armouries of ruined castles, these monsters take the forms of standard weapons of adventurers, hoping to be picked up and taken away.",
+                "While their larger, chest shaped cousins are harmful to the average adventurer, these are far more helpful, choosing instead to gain stustanance from the wounds of enemies fought while in the hands of their wielder instead of the adventurer themselves.",
+                "Their soft bodies can stretch and reform, which in combat gives the wielder a greater reach, and, if given enough time, can allow the wielder to entirely reshape the weapon into a different form to better suit their needs."
             ],
             "inherits": {
                 "nameSuffix": " of Reaching",
@@ -56,7 +58,7 @@
                 "rarity":"Uncommon",
                 "entries":[
                     "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "This Weapon, due to its organic nature can stretch as swung or thrust, it adds an addition 5 feet to your reach when you attack with it."
+                    "This Weapon, due to its organic nature can stretch as swung or thrust, this grants an addition 5 feet to your reach when you attack with it."
                 ],
                 "reqAttune": false,
                 "bonusWeapon":"+1"
