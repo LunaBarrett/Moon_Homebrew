@@ -572,7 +572,7 @@
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
             "You can use a bonus action to cause thick, orange acid to coat the blade. The acid remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} acid damage. The dagger can't be used this way again until the next dawn."
         ],
-        "reqAttune": true,
+        "reqAttune": false,
         "weaponCategory": "simple",
         "property": [
             "F",
@@ -595,7 +595,7 @@
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
             "You can use a bonus action to cause cold, brittle frost to coat the blade. The frost remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} cold damage. The dagger can't be used this way again until the next dawn."
         ],
-        "reqAttune": true,
+        "reqAttune": false,
         "weaponCategory": "simple",
         "property": [
             "F",
@@ -618,7 +618,7 @@
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
             "You can use a bonus action to cause swirling, bright flames to coat the blade. The flames remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} fire damage. The dagger can't be used this way again until the next dawn."
         ],
-        "reqAttune": true,
+        "reqAttune": false,
         "weaponCategory": "simple",
         "property": [
             "F",
@@ -641,7 +641,7 @@
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
             "You can use a bonus action to cause crackling, energetic sparks to coat the blade. The sparks remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} lightning damage. The dagger can't be used this way again until the next dawn."
         ],
-        "reqAttune": true,
+        "reqAttune": false,
         "weaponCategory": "simple",
         "property": [
             "F",
@@ -676,7 +676,7 @@
             "You can use a bonus action on your turn to target a creature with your psionic abilities. Roll a psionic die, and for a number of turns equal to the number rolled you can read its surface level thoughts (as with the {@spell Detect Thoughts|PHB} spell) and, once per turn, learn one of its saving throw modifiers or a condition it is immune to. A creature protected from divination magic (such as with the {@spell Nondetection|PHB} spell) is immune to this effect. The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die.",
             "As a ten-minute ritual, this hilt can take on the abilities of any magical weapon by being placed over it, destroying the original. Performing this ritual a second time replaces the previous abilities with the abilities of the new magical weapon. Your psychic blades inherit the abilities of the hilt."
         ],
-        "reqAttune":true,
+        "reqAttune": "by a soulknife rogue",
         "wonderous": true
     }
    ]
