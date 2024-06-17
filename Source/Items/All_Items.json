@@ -28,6 +28,20 @@
                 "version": "1.8",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
+            },
+            {
+                "json": "M:Elebus",
+                "abbreviation": "M:Elebus",
+                "full": "Moon: Elebus_Campaign",
+                "authors":[
+                    "Moon"
+                ],
+                "convertedBy":[
+                    "Moon"
+                ],
+                "version": "1.0",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
@@ -121,7 +135,6 @@
         "source": "M:Space_Items",
         "baseItem": "dagger|phb",
         "type": "M",
-        "tier": "major",
         "rarity": "rare",
         "entries": [
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -144,7 +157,6 @@
         "source": "M:Space_Items",
         "baseItem": "dagger|phb",
         "type": "M",
-        "tier": "major",
         "rarity": "rare",
         "entries": [
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -167,7 +179,6 @@
         "source": "M:Space_Items",
         "baseItem": "dagger|phb",
         "type": "M",
-        "tier": "major",
         "rarity": "rare",
         "entries": [
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -190,7 +201,6 @@
         "source": "M:Space_Items",
         "baseItem": "dagger|phb",
         "type": "M",
-        "tier": "major",
         "rarity": "rare",
         "entries": [
             "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -211,7 +221,6 @@
     {
         "name": "The Gift's Glint",
         "source": "M:Space_Items",
-        "tier": "major",
         "rarity": "uncommon",
         "entries":[
             "You can use an attack to cause a beam of radiant light to shoot foward from the Gift to hit a creature. That creature must succeed on a DC 17 Constitution saving throw or becoming blinded until the start of the creatures next turn"
@@ -224,7 +233,6 @@
     {
         "name": "The Collector's Hilt",
         "source": "M:Space_Items",
-        "tier": "major",
         "rarity": "rare",
         "entries":[
             "While attuned to this hilt, your psionic weapons can be manifested or vanished at-will, instead of when you take the Attack action or the following bonus action.",
@@ -239,7 +247,7 @@
         "source": "M:Space_Items",
         "rarity": "none",
         "entries":[
-            "A Fist sized rough gemstone of brilliant swirling orange and yellow hues, said to be solidified sunlight",
+            "A fist sized rough gemstone of brilliant swirling orange and yellow hues, said to be solidified sunlight",
             "While close inspection reveales no magical properties, the Ooze threatening the city of Limbo seems to have an adversion to this material.",
             "One of the three materials required to craft {@item The Beacon of Illumination|M:Space_Items}"
         ],
@@ -250,7 +258,7 @@
         "name": "Mimic's Blood",
         "source": "M:Space_Items",
         "entries":[
-            "TBD"
+            "A viscus dark fluid harvested from mimics,"
         ]
     },
     {
@@ -279,6 +287,30 @@
         "source": "M:Gen_Items",
         "entries":[
             "TBD"
+        ]
+    },
+    {
+        "name": "Potion of Oozeus Form",
+        "source": "M:Space_Items",
+        "type": "P",  
+        "rarity": "uncommon",
+        "entries":[
+            "TBD"
+        ]
+    },
+    {
+        "name": "Armour of Zodar",
+        "source":"M:Space_Items",
+        "rarity": "artifact",
+        "entries":[
+            "TBD"
+        ],
+        "items":[
+            "{@item Helm of Zodar|M:Space_Items}",
+            "{@item Gauntlets of Zodar|M:Space_Items}",
+            "{@item Breastplate of Zodar|M:Space_Items}",
+            "{@item Greaves of Zodar|M:Space_Items}",
+            "{@item Cuisses of Zodar|M:Space_Items}"
         ]
     }
    ]
