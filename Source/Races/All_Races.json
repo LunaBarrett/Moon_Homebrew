@@ -24,9 +24,9 @@
             "name": "Dweller",
             "source": "M:Elebus",
             "alias": [
-                "Elebus Dwarves",
-                "Dwarves",
-                "Living Geodes"
+                "Elebus Dwarf",
+                "Dwarf",
+                "Living Geode"
             ],
             "creatureTypes":[
                 "humanoid"
@@ -119,7 +119,7 @@
                     "type": "entries",
                     "name": "Speed",
                     "entries":[
-                        "You have a walking speed of 30 feet"
+                        "You have a walking speed of 30 feet."
                     ]
                 },
                 {
@@ -133,29 +133,29 @@
                     "type": "entries",
 					"name": "Hefest's craft",
 					"entries": [
-						"Your skin and flesh are crafted from the stone of the mountains, you have resistance to necrotic damage"
+						"Your skin and flesh are crafted from the stone of the mountains, you have resistance to necrotic damage."
 					]
                 },
                 {
                     "type": "entries",
                     "name": "Moldable Stone",
                     "entries": [
-                        "Your Soul gem's magic lets you mold the stone around you, making it alive and temporarily a part of you. You gain proficiency with {@item Mason's Tools|PHB} and do not require {@item Mason's Tools|PHB} to attempt a {@item Mason's Tools|PHB} check."
-                    ]
+                        "The magic of your soul gem also extends to other stones around you, making them a part of you. You have proficiency with {@item Mason's Tools|PHB} and gain their benefits even without having any on your person."
+                        ]
                 },
                 {
                     "type":"entries",
                     "name": "Kailagh's Connection",
                     "entries": [
-                        "The magic that grants you life allows you to alter the stone around you as you reach out with it, you gain the ability to cast {@spell Attune with Stone|M:Elebus} as a cantrip."
+                        "The magic that grants you life allows you to alter the stone around you as you reach out with it, you know the {@spell Attune with Stone|M:Elebus} cantrip."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Crystal Growth",
                     "entries": [
-                        "You can use your action to unleash your soul gem's innate magic and cause shards of crystals to grow out the ground in a 10 food radius circle centred on you.",
-                        "When you use your Crystal Growth, the area around you becomes difficult terrain, and each creature in the area must make a strength saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature that fails the save has its speed reduced to 0.",
+                        "You can use your action to unleash your soul gem's innate magic and cause shards of crystals to grow out the ground in a 10-foot radius circle centred on you.",
+                        "When you use your Crystal Growth, the area around you becomes difficult terrain, and each creature in the area must make a strength saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature that fails the save has its speed reduced to 0 till the start of your next turn.",
                         "You can use your Crystal Growth a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
                     ]
                 },
@@ -163,7 +163,7 @@
                     "type": "entries",
                     "name": "Languages",
                     "entries": [
-                        "You can speak, read. and write Common, Stone Speak, and one other language that you and your DM agree is appropriate for your character."
+                        "You can speak, read, and write Common, Stone Speak, and one other language that you and your DM agree is appropriate for your character."
                     ]
                 }
             ]
