@@ -1,0 +1,80 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "M:Elebus",
+                "abbreviation": "M:Elebus",
+                "full": "Moon: Elebus_Campaign",
+                "authors":[
+                    "Moon"
+                ],
+                "convertedBy":[
+                    "Moon"
+                ],
+                "version": "1.0",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 1718118454
+    },
+    "spell":[
+        {
+            "name": "Attune with Stone",
+            "source": "M:Elebus",
+            "level": 0,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "touch"
+            },
+            "components": {
+                "v": false,
+                "s": true,
+                "m": false
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You can form unusal patterns in, or created clouded gems/minerals from, stone",
+                "You can repair cracks in stone and stonework and smooth over jagged edges, as well as fuse two handsized stones together.",
+                "You can send subtle vibrations through stone, pervivable only to those who know either this spell, or StoneSpeak."
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Mountain Goddess",
+                            "shortName": "Mountain",
+                            "source": "M:Elebus"
+                        }
+                    }
+                ]
+            }
+
+
+        }
+    ]
+}

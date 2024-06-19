@@ -42,10 +42,38 @@
                 "version": "1.0",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
+            },
+            {
+                "json": "M:Elebus",
+                "abbreviation": "M:Elebus",
+                "full": "Moon: Elebus_Campaign",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.06.19.14.13",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:Elebus",
+                "abbreviation": "M:Elebus",
+                "full": "Moon: Elebus_Campaign",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.06.19.14.13",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1718636989.4933264
+        "dateLastModified": 1718806404.2452412
     },
     "variant": [
         {
@@ -313,6 +341,212 @@
                 "{@item Greaves of Zodar|M:Space_Items}",
                 "{@item Cuisses of Zodar|M:Space_Items}"
             ]
+        }
+    ],
+    "race": [
+        {
+            "name": "Dweller",
+            "source": "M:Elebus",
+            "alias": [
+                "Elebus Dwarves",
+                "Dwarves",
+                "Living Geodes"
+            ],
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "ability": [
+                {
+                    "choose": {
+                        "weighted": {
+                            "from": [
+                                "str",
+                                "dex",
+                                "con",
+                                "int",
+                                "wis",
+                                "cha"
+                            ],
+                            "weights": [
+                                2,
+                                1
+                            ]
+                        }
+                    }
+                },
+                {
+                    "choose": {
+                        "weighted": {
+                            "from": [
+                                "str",
+                                "dex",
+                                "con",
+                                "int",
+                                "wis",
+                                "cha"
+                            ],
+                            "weights": [
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    }
+                }
+            ],
+            "darkvision": 60,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "stonespeak": true,
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "mason's tools": true
+                }
+            ],
+            "resists": [
+                "necrotic"
+            ],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "-": [
+                            "Attune with Stone|M:Elebus"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": " Size",
+                    "entries": [
+                        "You are Small or Medium. You choose the size when you select this race."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "You have a walking speed of 30 feet"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hefest's craft",
+                    "entries": [
+                        "Your skin and flesh are crafted from the stone of the mountains, you have resistance to necrotic damage"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Moldable Stone",
+                    "entries": [
+                        "Your Soul gem's magic lets you mold the stone around you, making it alive and temporarily a part of you. You gain proficiency with {@item Mason's Tools|PHB} and do not require {@item Mason's Tools|PHB} to attempt a {@item Mason's Tools|PHB} check."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Kailagh's Connection",
+                    "entries": [
+                        "The magic that grants you life allows you to alter the stone around you as you reach out with it, you gain the ability to cast {@spell Attune with Stone|M:Elebus} as a cantrip."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Crystal Growth",
+                    "entries": [
+                        "You can use your action to unleash your soul gem's innate magic and cause shards of crystals to grow out the ground in a 10 food radius circle centred on you.",
+                        "When you use your Crystal Growth, the area around you becomes difficult terrain, and each creature in the area must make a strength saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature that fails the save has its speed reduced to 0.",
+                        "You can use your Crystal Growth a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read. and write Common, Stone Speak, and one other language that you and your DM agree is appropriate for your character."
+                    ]
+                }
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Attune with Stone",
+            "source": "M:Elebus",
+            "level": 0,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "touch"
+            },
+            "components": {
+                "v": false,
+                "s": true,
+                "m": false
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You can form unusal patterns in, or created clouded gems/minerals from, stone",
+                "You can repair cracks in stone and stonework and smooth over jagged edges, as well as fuse two handsized stones together.",
+                "You can send subtle vibrations through stone, pervivable only to those who know either this spell, or StoneSpeak."
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Mountain Goddess",
+                            "shortName": "Mountain",
+                            "source": "M:Elebus"
+                        }
+                    }
+                ]
+            }
         }
     ]
 }

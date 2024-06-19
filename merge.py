@@ -43,10 +43,10 @@ Items = glob.glob("Source/Items/All_Items.json")
 # Backgrounds = glob.glob("Source/Player_Centric/Backgrounds/All_Backgrounds.json")
 # Classes = glob.glob("Source/Player_Centric/Classes/All_Classes.json")
 # Feats = glob.glob("Source/Player_Centric/Feats/All_Feats.json")
-# Races = glob.glob("Source/Races/All_Races.json")
-# Spells = glob.glob("Source/Spells/All_Spells.json")
+Races = glob.glob("Source/Races/All_Races.json")
+Spells = glob.glob("Source/Spells/All_Spells.json")
 # All_Homebrew = Conditions + Items + Monsters + Backgrounds + Classes + Feats + Races + Spells
-All_Homebrew = Items
+All_Homebrew = Items + Races + Spells
 
 # Get data and write
 # write_to_file("Merged/Moon_Conditions.json", build_json(Conditions))
