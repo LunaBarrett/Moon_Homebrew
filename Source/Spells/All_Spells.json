@@ -54,7 +54,7 @@
                         "You create unusual patterns on the stone that fill no more than a 5-foot area.",
                         "You repair cracks in stone and stonework and smooth over jagged edges that fit in their entirety under your hands.",
                         "You fuse two nonmagical objects made of stone that can each fit in your empty hand.",
-                        "You send subtle vibrations through stone, perceivable and understandable only to creatures within 120 feet that are also touching the ground and that know this spell, know Stonespeak or can sense you with tremmorsense and understand at least one language."
+                        "You send subtle vibrations through stone, perceivable and understandable only to creatures within 120 feet that are also touching the ground and that know this spell, know Stonespeak or can sense you with {@sense Tremorsense|MM} and understand at least one language."
                     ]
                 }
             ],
