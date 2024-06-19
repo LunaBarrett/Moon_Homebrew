@@ -45,7 +45,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1718807825.7523959
+        "dateLastModified": 1718809737.265718
     },
     "variant": [
         {
@@ -459,7 +459,7 @@
                     "type": "entries",
                     "name": "Languages",
                     "entries": [
-                        "You can speak, read, and write Common, Stone Speak, and one other language that you and your DM agree is appropriate for your character."
+                        "You can speak, read, and write Common, Stonespeak, and one other language that you and your DM agree is appropriate for your character."
                     ]
                 }
             ]
@@ -478,7 +478,10 @@
                 }
             ],
             "range": {
-                "type": "touch"
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
             },
             "components": {
                 "s": true
@@ -489,9 +492,17 @@
                 }
             ],
             "entries": [
-                "You can form unusal patterns in, or created clouded gems/minerals from, stone",
-                "You can repair cracks in stone and stonework and smooth over jagged edges, as well as fuse two nonmagical objects made of stone that can each fit in your empty hand.",
-                "You can send subtle vibrations through stone, perceivable only to those who know either this spell, or Stone Speak."
+                "You manifest a small portion of Kailagh's power, allowing you to alter the stone under your hands. You create one of the following effects on stone you touch:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You created Tiny, worthless, clouded gems/minerals from the stone.",
+                        "You Create unusual patterns on the stone that fill no more than a 5-foot area.",
+                        "You repair cracks in stone and stonework and smooth over jagged edges that fit in their entirety under your hands.",
+                        "You fuse two nonmagical objects made of stone that can each fit in your empty hand.",
+                        "You send subtle vibrations through stone, perceivable and understandable only to creatures within 120 feet that are also touching the ground and that know this spell, know Stonespeak or can sense you with tremmorsense and understand at least one language."
+                    ]
+                }
             ],
             "areaTags": [
                 "ST"
