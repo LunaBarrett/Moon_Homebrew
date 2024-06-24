@@ -258,14 +258,18 @@
         "name": "Mimic's Blood",
         "source": "M:Space_Items",
         "entries":[
-            "A viscus dark fluid harvested from mimics,"
+            "A viscus dark fluid harvested from mimics which tries to crawl up the sides of any container its kept it.",
+            "The blood of a mimic carries some of the copying properties of the monster. Skilled alchemists are able to mimic potions by combining the original potion with a vial of Mimic's Blood.",
+            "One of the three materials required to craft {@item The Beacon of Illumination|M:Space_Items}."
         ]
     },
     {
         "name": "Lunar Dragon's Scale",
         "source": "M:Space_Items",
         "entries":[
-            "TBD"
+            "A kite shaped alabaster white scale, taken from a lunar dragon.",
+            "When holding this scale up to a light source, the light  reflected off is near identical to moonlight. It is said this light can cause Lycanthropes to transform.",
+            "One of the three materials required to craft {@item The Beacon of Illumination|M:Space_Items}."
         ]
     },
     {

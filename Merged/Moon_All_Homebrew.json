@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.06.17.14.39",
+                "version": "2024.06.24.14.58",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -45,7 +45,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1718810300.95715
+        "dateLastModified": 1719241094.3683238
     },
     "variant": [
         {
@@ -259,14 +259,18 @@
             "name": "Mimic's Blood",
             "source": "M:Space_Items",
             "entries": [
-                "A viscus dark fluid harvested from mimics,"
+                "A viscus dark fluid harvested from mimics which tries to crawl up the sides of any container its kept it.",
+                "The blood of a mimic carries some of the copying properties of the monster. Skilled alchemists are able to mimic potions by combining the original potion with a vial of Mimic's Blood.",
+                "One of the three materials required to craft {@item The Beacon of Illumination|M:Space_Items}."
             ]
         },
         {
             "name": "Lunar Dragon's Scale",
             "source": "M:Space_Items",
             "entries": [
-                "TBD"
+                "A kite shaped alabaster white scale, taken from a lunar dragon.",
+                "When holding this scale up to a light source, the light  reflected off is near identical to moonlight. It is said this light can cause Lycanthropes to transform.",
+                "One of the three materials required to craft {@item The Beacon of Illumination|M:Space_Items}."
             ]
         },
         {
@@ -496,7 +500,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "You created Tiny, worthless, clouded gems/minerals from the stone.",
+                        "You create Tiny, worthless, clouded gems/minerals from the stone.",
                         "You create unusual patterns on the stone that fill no more than a 5-foot area.",
                         "You repair cracks in stone and stonework and smooth over jagged edges that fit in their entirety under your hands.",
                         "You fuse two nonmagical objects made of stone that can each fit in your empty hand.",
