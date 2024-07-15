@@ -257,6 +257,7 @@
     {
         "name": "Mimic's Blood",
         "source": "M:Space_Items",
+        "rarity": "none",
         "entries":[
             "A viscus dark fluid harvested from mimics which tries to crawl up the sides of any container its kept it.",
             "The blood of a mimic carries some of the copying properties of the monster. Skilled alchemists are able to mimic potions by combining the original potion with a vial of Mimic's Blood.",
@@ -266,6 +267,7 @@
     {
         "name": "Lunar Dragon's Scale",
         "source": "M:Space_Items",
+        "rarity": "none",
         "entries":[
             "A kite shaped alabaster white scale, taken from a lunar dragon.",
             "When holding this scale up to a light source, the light  reflected off is near identical to moonlight. It is said this light can cause Lycanthropes to transform.",
