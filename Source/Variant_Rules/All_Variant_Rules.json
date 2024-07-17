@@ -1,0 +1,40 @@
+{
+    "_meta": {
+        "sources": [
+            {
+            "json": "M:V_Rules",
+            "abbreviation": "M:V_Rules",
+            "full": "Moon: Variant Rules",
+            "authors": [
+                "Moon"
+            ],
+            "convertedBy": [
+                "Moon"
+            ],
+            "version": "1.0",
+            "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+            "targetSchema": "1.0"
+        }
+    ],
+        "dateAdded": 0,
+        "dateLastModified": 1718118454
+    },
+    "variantrule": [
+        {
+            "name": "Reputation and Renown",
+            "source": "M:V_Rules",
+            "ruleType": "O",
+            "entries": [
+                "Rules for Reputation and Renown system"
+            ]
+        },
+        {
+            "name": "Long Projects",
+            "source": "M:V_Rules",
+            "ruleType": "O",
+            "entries": [
+                "Rules for Long Projects"
+            ]
+        }
+    ]
+}
