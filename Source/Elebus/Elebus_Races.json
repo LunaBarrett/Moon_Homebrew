@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "M:Elebus",
-                "abbreviation": "M:Elebus",
-                "full": "Moon: Elebus_Campaign",
+                "json": "M:E_Races",
+                "abbreviation": "M:E_Races",
+                "full": "Moon: Elebus_Campaign_Races",
                 "authors":[
                     "Moon"
                 ],
@@ -22,7 +22,7 @@
     "race": [
         {
             "name": "Dweller",
-            "source": "M:Elebus",
+            "source": "M:E_Races",
             "alias": [
                 "Elebus Dwarf",
                 "Dwarf",
@@ -147,7 +147,7 @@
                     "type":"entries",
                     "name": "Kailagh's Connection",
                     "entries": [
-                        "The magic that grants you life allows you to alter the stone around you as you reach out with it, you know the {@spell Attune with Stone|M:Elebus} cantrip."
+                        "The magic that grants you life allows you to alter the stone around you as you reach out with it, you know the {@spell Attune with Stone|M:E_Spells} cantrip."
                     ]
                 },
                 {

@@ -1,0 +1,22 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "M:Gen_Monsters",
+                "abbreviation": "M:Gen_Monsters",
+                "full": "Moon: General_Monsters",
+                "authors":[
+                    "Moon"
+                ],
+                "convertedBy":[
+                    "Moon"
+                ],
+                "version": "1.0",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 1718118454
+    }
+}

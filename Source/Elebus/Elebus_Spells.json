@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "M:Elebus",
-                "abbreviation": "M:Elebus",
-                "full": "Moon: Elebus_Campaign",
+                "json": "M:E_Spells",
+                "abbreviation": "M:E_Spells",
+                "full": "Moon: Elebus_Campaign_Spells",
                 "authors":[
                     "Moon"
                 ],
@@ -22,7 +22,7 @@
     "spell":[
         {
             "name": "Attune with Stone",
-            "source": "M:Elebus",
+            "source": "M:E_Spells",
             "level": 0,
             "school": "T",
             "time": [
@@ -77,7 +77,7 @@
                         "subclass": {
                             "name": "The Mountain Goddess",
                             "shortName": "Mountain",
-                            "source": "M:Elebus"
+                            "source": "M:E_Classes"
                         }
                     }
                 ]
@@ -85,7 +85,7 @@
             "races":[
                 {
                     "name": "Dweller",
-                    "source": "M:Elebus"
+                    "source": "M:E_Races"
                 }
             ]
 

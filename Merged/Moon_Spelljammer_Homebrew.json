@@ -1,0 +1,261 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "M:S_Backgrounds",
+                "abbreviation": "M:S_Backgrounds",
+                "full": "Moon: Spelljammer_Campaign_Backgrounds",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:S_Classes",
+                "abbreviation": "M:S_Classes",
+                "full": "Moon: Spelljammer_Campaign_Classes",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:S_Conditions",
+                "abbreviation": "M:S_Conditions",
+                "full": "Moon: Spelljammer_Campaign_Conditions",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:S_Feats",
+                "abbreviation": "M:S_Feats",
+                "full": "Moon: Spelljammer_Campaign_Feats",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:S_Items",
+                "abbreviation": "M:S_Items",
+                "full": "Moon: Spelljammer_Campaign_Items",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:S_Monsters",
+                "abbreviation": "M:S_Monsters",
+                "full": "Moon: Spelljammer_Campaign_Monsters",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:S_Races",
+                "abbreviation": "M:S_Races",
+                "full": "Moon: Spelljammer_Campaign_Races",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:S_Spells",
+                "abbreviation": "M:s_Spells",
+                "full": "Moon: Spelljammer_Campaign_Spells",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            },
+            {
+                "json": "M:S_V_Rules",
+                "abbreviation": "M:S_V_Rules",
+                "full": "Moon: Spelljammer_Campaign_Variant_Rules",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "2024.07.22.11.17",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 1721647051.8748605
+    },
+    "item": [
+        {
+            "name": "King's Trident of Returning Woe",
+            "source": "M:S_Items",
+            "rarity": "rare",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you make a ranged attack using this weapon, a phantasmal blue outline of the trident is shot out, The Trident remains in the users hand.",
+                "King's Lament: If the wielder of the {@item Queen's Trident of Returning Fury|M:S_Items} drops to 0 hp within 60 feet of the you, you gain temporary hitpoints equal to PB number of hitdice, Alongside this, you fall into sorrow, with all attacks within 30 feet having dissadvantage, however you loose all buffs granted by allies because of your sadness."
+            ],
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "property": [
+                "V",
+                "T"
+            ],
+            "baseItem": "Trident|phb",
+            "dmg1": "1d6",
+            "dmg2": "1d8",
+            "dmgType": "P",
+            "bonusWeapon": "+1"
+        },
+        {
+            "name": "Queens's Trident of Returning Fury",
+            "source": "M:S_Items",
+            "rarity": "rare",
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you make a ranged attack using this weapon, a phantasmal blue outline of the trident is shot out, The Trident remains in the users hand.",
+                "Queen's Fury: If the wielder of the {@item King's Trident of Returning Woe|M:S_Items} drops to 0 hp within 60 feet of the you, you gain temporary hitpoints equal to PB number of hitdice, Alongside this, you fall into mindless fury, gaining an extra attack per round that can only be used with a melee attack with this weapon, However if there are no enemies within your movement speed, you lash out, attacking the closest thing to you including allies. "
+            ],
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "property": [
+                "V",
+                "T"
+            ],
+            "baseItem": "Trident|phb",
+            "dmg1": "1d6",
+            "dmg2": "1d8",
+            "dmgType": "P",
+            "bonusWeapon": "+1"
+        },
+        {
+            "name": "The Gift's Glint",
+            "source": "M:S_Items",
+            "rarity": "uncommon",
+            "entries": [
+                "You can use an attack to cause a beam of radiant light to shoot foward from the Gift to hit a creature. That creature must succeed on a DC 17 Constitution saving throw or becoming blinded until the start of the creatures next turn"
+            ],
+            "reqAttune": false,
+            "range": "40/120",
+            "dmg1": "3d8",
+            "dmgType": "R"
+        },
+        {
+            "name": "The Collector's Hilt",
+            "source": "M:S_Items",
+            "rarity": "rare",
+            "entries": [
+                "While attuned to this hilt, your psionic weapons can be manifested or vanished at-will, instead of when you take the Attack action or the following bonus action.",
+                "You can use a bonus action on your turn to target a creature with your psionic abilities. Roll a psionic die, and for a number of turns equal to the number rolled you can read its surface level thoughts (as with the {@spell Detect Thoughts|PHB} spell) and, once per turn, learn one of its saving throw modifiers or a condition it is immune to. A creature protected from divination magic (such as with the {@spell Nondetection|PHB} spell) is immune to this effect. The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die.",
+                "As a ten-minute ritual, this hilt can take on the abilities of any magical weapon by being placed over it, destroying the original. Performing this ritual a second time replaces the previous abilities with the abilities of the new magical weapon. Your psychic blades inherit the abilities of the hilt."
+            ],
+            "reqAttune": "by a soulknife rogue",
+            "wondrous": true
+        },
+        {
+            "name": "Crystallised Sunlight",
+            "source": "M:S_Items",
+            "rarity": "none",
+            "entries": [
+                "A fist sized rough gemstone of brilliant swirling orange and yellow hues, said to be solidified sunlight",
+                "While close inspection reveales no magical properties, the Ooze threatening the city of Limbo seems to have an adversion to this material.",
+                "One of the three materials required to craft {@item The Beacon of Illumination|M:S_Items}"
+            ],
+            "weight": 0.5,
+            "value": 5000
+        },
+        {
+            "name": "Mimic's Blood",
+            "source": "M:S_Items",
+            "rarity": "none",
+            "entries": [
+                "A viscus dark fluid harvested from mimics which tries to crawl up the sides of any container its kept it.",
+                "The blood of a mimic carries some of the copying properties of the monster. Skilled alchemists are able to mimic potions by combining the original potion with a vial of Mimic's Blood.",
+                "One of the three materials required to craft {@item The Beacon of Illumination|M:S_Items}."
+            ]
+        },
+        {
+            "name": "Lunar Dragon's Scale",
+            "source": "M:S_Items",
+            "rarity": "none",
+            "entries": [
+                "A kite shaped alabaster white scale, taken from a lunar dragon.",
+                "When holding this scale up to a light source, the light  reflected off is near identical to moonlight. It is said this light can cause Lycanthropes to transform.",
+                "One of the three materials required to craft {@item The Beacon of Illumination|M:S_Items}."
+            ]
+        },
+        {
+            "name": "The Beacon of Illumination",
+            "source": "M:S_Items",
+            "tier": "major",
+            "rarity": "very rare",
+            "entries": [
+                "A beautifully iridecent orb of light eminating out of a crystaline core, crafted from {@item Crystallised Sunlight|M:S_Items}, {@item Mimic's Blood|M:S_Items}, and a {@item Lunar Dragon's Scale|M:S_Items}.",
+                "The Beacon emits 150 feet of bright light and 150 feet of dim light, the light it emits shifts between deep oranges, reds, pinks, and yellows, mimicking a sunset.",
+                "The light emitted drives back the Ooze plaguing the cosmos. An ooze under the control of ??? that enters the area within 150 feet of the beacon, or start its turn there, must make a DC 21 Wisdom saving throw or be subject to the effects of {@classFeature Channel Divinity: Turn Undead|Cleric|PHB|2|PHB|Turn Undead}. An ooze with a CR of 10 or lower automatically fails this saving throw. If an ooze passes the saving throw, or it takes damage while under the effects, they are immune to the effects of the beacon for 1 hours."
+            ],
+            "wondrous": true,
+            "weight": 50,
+            "value": 25000
+        },
+        {
+            "name": "Armour of Zodar",
+            "source": "M:S_Items",
+            "rarity": "artifact",
+            "entries": [
+                "TBD"
+            ],
+            "items": [
+                "{@item Helm of Zodar|M:S_Items}",
+                "{@item Gauntlets of Zodar|M:S_Items}",
+                "{@item Breastplate of Zodar|M:S_Items}",
+                "{@item Greaves of Zodar|M:S_Items}",
+                "{@item Cuisses of Zodar|M:S_Items}"
+            ]
+        }
+    ]
+}

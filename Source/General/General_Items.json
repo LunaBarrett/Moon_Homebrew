@@ -1,0 +1,173 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "M:Gen_Items",
+                "abbreviation": "M:Gen_Items",
+                "full": "Moon: General_Items",
+                "authors": [
+                    "Moon"
+                ],
+                "convertedBy": [
+                    "Moon"
+                ],
+                "version": "1.4",
+                "url": "https://github.com/LunaBarrett/Moon_Homebrew",
+                "targetSchema": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 1718118454
+    },
+    "variant":[
+        {
+            "name": "Weapon of Reaching",
+            "type": "GV",
+            "requires": [
+                {
+                    "weapon": true,
+                    "type": "M"
+
+                }
+            ],
+            "excludes":{
+                "net": true
+            },
+            "entries":[
+                "Found mostly in the depths of dungeons, in dragons hoards or amongst armouries of ruined castles, these monsters take the forms of standard weapons of adventurers, hoping to be picked up and taken away.",
+                "While their larger, chest shaped cousins are harmful to the average adventurer, these are far more helpful, choosing instead to gain sustenance from the wounds of enemies fought while in the hands of their wielder instead of the adventurer themselves.",
+                "Their soft bodies can stretch and reform, which in combat gives the wielder a greater reach, and, if given enough time, can allow the wielder to entirely reshape the weapon into a different form to better suit their needs."
+            ],
+            "inherits": {
+                "nameSuffix": " of Reaching",
+                "source":"M:Gen_Items",
+                "rarity":"uncommon",
+                "entries":[
+                    "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "This weapon, due to its organic nature, can stretch as it is swung or thrust. It adds an additional 5 feet to your reach when you attack with it."
+                ],
+                "reqAttune": false,
+                "bonusWeapon":"+1"
+            },
+            "source":"M:Gen_Items",
+            "rarity":"uncommon"
+        }
+    ],
+    "item":[
+   {
+        "name": "Onyx Ring of Potential",
+        "source": "M:Gen_Items",
+        "rarity": "none",
+        "value": 1,
+        "weight": 0.1,
+        "entries": [
+            "a simple metal band with a smooth onyx set into it, it beckons to you to put it on to draw out its power."
+        ]
+        
+    },
+    {
+        "name": "Dagger of Acid",
+        "source": "M:Space_Items",
+        "baseItem": "dagger|phb",
+        "type": "M",
+        "rarity": "rare",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "You can use a bonus action to cause thick, orange acid to coat the blade. The acid remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} acid damage. The dagger can't be used this way again until the next dawn."
+        ],
+        "reqAttune": false,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Dagger of Frost",
+        "source": "M:Space_Items",
+        "baseItem": "dagger|phb",
+        "type": "M",
+        "rarity": "rare",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "You can use a bonus action to cause cold, brittle frost to coat the blade. The frost remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} cold damage. The dagger can't be used this way again until the next dawn."
+        ],
+        "reqAttune": false,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },    
+    {
+        "name": "Dagger of Flames",
+        "source": "M:Space_Items",
+        "baseItem": "dagger|phb",
+        "type": "M",
+        "rarity": "rare",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "You can use a bonus action to cause swirling, bright flames to coat the blade. The flames remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} fire damage. The dagger can't be used this way again until the next dawn."
+        ],
+        "reqAttune": false,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },    
+    {
+        "name": "Dagger of Sparks",
+        "source": "M:Space_Items",
+        "baseItem": "dagger|phb",
+        "type": "M",
+        "rarity": "rare",
+        "entries": [
+            "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+            "You can use a bonus action to cause crackling, energetic sparks to coat the blade. The sparks remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} lightning damage. The dagger can't be used this way again until the next dawn."
+        ],
+        "reqAttune": false,
+        "weaponCategory": "simple",
+        "property": [
+            "F",
+            "L",
+            "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "bonusWeapon": "+1"
+    },
+    {
+        "name": "Medusa's Eyes",
+        "source": "M:Gen_Items",
+        "entries":[
+            "TBD"
+        ]
+    },
+    {
+        "name": "Potion of Oozeus Form",
+        "source": "M:Space_Items",
+        "type": "P",  
+        "rarity": "uncommon",
+        "entries":[
+            "TBD"
+        ]
+    }
+   ]
+}

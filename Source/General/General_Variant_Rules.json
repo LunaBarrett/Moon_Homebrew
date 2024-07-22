@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-            "json": "M:V_Rules",
-            "abbreviation": "M:V_Rules",
-            "full": "Moon: Variant Rules",
+            "json": "M:Gen_V_Rules",
+            "abbreviation": "M:Gen_V_Rules",
+            "full": "Moon: General_Variant_Rules",
             "authors": [
                 "Moon"
             ],
@@ -22,7 +22,7 @@
     "variantrule": [
         {
             "name": "Reputation and Renown",
-            "source": "M:V_Rules",
+            "source": "M:Gen_V_Rules",
             "ruleType": "O",
             "entries": [
                 "Rules for Reputation and Renown system"
@@ -30,7 +30,7 @@
         },
         {
             "name": "Long Projects",
-            "source": "M:V_Rules",
+            "source": "M:Gen_V_Rules",
             "ruleType": "O",
             "entries": [
                 "Rules for Long Projects"
