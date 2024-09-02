@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -25,7 +25,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -39,7 +39,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -53,7 +53,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -67,7 +67,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -81,7 +81,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -95,7 +95,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -109,7 +109,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -123,13 +123,13 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.10",
+                "version": "2024.09.02.14.24",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725286202.5192573
+        "dateLastModified": 1725287070.3493161
     },
     "variant": [
         {
@@ -141,9 +141,9 @@
                 "maxhp"
             ],
             "items": [
-                "Twinkling Healing Draught",
-                "Sparkling Healing Draught",
-                "Shining Healing Draught"
+                "{@item Twinkling Healing Draught|M:E_Items}",
+                "{@item Sparkling Healing Draught|M:E_Items}0",
+                "{@item Shining Healing Draught|M:E_Items}"
             ],
             "source": "M:E_Items"
         },
@@ -156,10 +156,10 @@
                 "healing over time"
             ],
             "items": [
-                "Standard Healing Salve",
-                "Greater Healing Salve",
-                "Wonderous Healing Salve",
-                "Legendary Healing Salve"
+                "{@item Standard Healing Salve|M:E_Items}",
+                "{@item Greater Healing Salve|M:E_Items}",
+                "{@item Wonderous Healing Salve|M:E_Items}",
+                "{@item Legendary Healing Salve|M:E_Items}"
             ],
             "source": "M:E_Items"
         },
@@ -172,9 +172,9 @@
                 "Temp hp"
             ],
             "items": [
-                "Standard Healing Cannikin",
-                "Greater Healing Cannikin",
-                "Wonderous Healing Cannikin"
+                "{@item Standard Healing Cannikin|M:E_Items}",
+                "{@item Greater Healing Cannikin|M:E_Items}",
+                "{@item Wonderous Healing Cannikin|M:E_Items}"
             ],
             "source": "M:E_Items"
         }
@@ -225,7 +225,7 @@
             "weight": 2,
             "entries": [
                 "TBD",
-                "takes a minute to apply, provides ? healing every minute for 10 minutes"
+                "takes a minute to apply, provides  healing every minute for 10 minutes"
             ]
         },
         {
@@ -237,7 +237,7 @@
             "weight": 2,
             "entries": [
                 "TBD",
-                "takes a minute to apply, provides ? healing every minute for 10 minutes"
+                "takes a minute to apply, provides  healing every minute for 10 minutes"
             ]
         },
         {
@@ -249,7 +249,7 @@
             "weight": 2,
             "entries": [
                 "TBD",
-                "takes a minute to apply, provides ? healing every minute for 10 minutes"
+                "takes a minute to apply, provides  healing every minute for 10 minutes"
             ]
         },
         {
@@ -261,7 +261,7 @@
             "weight": 2,
             "entries": [
                 "TBD",
-                "takes a minute to apply, provides ? healing every minute for 10 minutes"
+                "takes a minute to apply, provides  healing every minute for 10 minutes"
             ]
         },
         {
