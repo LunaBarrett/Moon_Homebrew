@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -25,7 +25,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -39,7 +39,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -53,7 +53,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -67,7 +67,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -81,7 +81,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -95,7 +95,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -109,7 +109,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -123,14 +123,184 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.07.22.11.17",
+                "version": "2024.09.02.14.10",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1721647051.8310065
+        "dateLastModified": 1725286202.5192573
     },
+    "variant": [
+        {
+            "name": "Healing Draught",
+            "type": "P",
+            "rarity": "varies",
+            "entries": [
+                "One hour as part of a rest, lasts until next dawn",
+                "maxhp"
+            ],
+            "items": [
+                "Twinkling Healing Draught",
+                "Sparkling Healing Draught",
+                "Shining Healing Draught"
+            ],
+            "source": "M:E_Items"
+        },
+        {
+            "name": "Healing Salve",
+            "type": "P",
+            "rarity": "varies",
+            "entries": [
+                "1 minute",
+                "healing over time"
+            ],
+            "items": [
+                "Standard Healing Salve",
+                "Greater Healing Salve",
+                "Wonderous Healing Salve",
+                "Legendary Healing Salve"
+            ],
+            "source": "M:E_Items"
+        },
+        {
+            "name": "Healing Cannikin",
+            "type": "P",
+            "rarity": "varies",
+            "entries": [
+                "Bonus Action",
+                "Temp hp"
+            ],
+            "items": [
+                "Standard Healing Cannikin",
+                "Greater Healing Cannikin",
+                "Wonderous Healing Cannikin"
+            ],
+            "source": "M:E_Items"
+        }
+    ],
+    "item": [
+        {
+            "name": "Twinkling Healing Draught",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Rare",
+            "value": 50000,
+            "weight": 0.5,
+            "entries": [
+                "TBD",
+                "20 max health lasts until next dawn"
+            ]
+        },
+        {
+            "name": "Sparkling Healing Draught",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Very Rare",
+            "value": 125000,
+            "weight": 0.5,
+            "entries": [
+                "TBD",
+                "50 max health lasts until next dawn"
+            ]
+        },
+        {
+            "name": "Shining Healing Draught",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Legendary",
+            "value": 300000,
+            "weight": 0.5,
+            "entries": [
+                "TBD",
+                "100 max health lasts until next dawn"
+            ]
+        },
+        {
+            "name": "Standard Healing Salve",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Uncommon",
+            "value": 5000,
+            "weight": 2,
+            "entries": [
+                "TBD",
+                "takes a minute to apply, provides ? healing every minute for 10 minutes"
+            ]
+        },
+        {
+            "name": "Greater Healing Salve",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Rare",
+            "value": 20000,
+            "weight": 2,
+            "entries": [
+                "TBD",
+                "takes a minute to apply, provides ? healing every minute for 10 minutes"
+            ]
+        },
+        {
+            "name": "Wonderous Healing Salve",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Very Rare",
+            "value": 50000,
+            "weight": 2,
+            "entries": [
+                "TBD",
+                "takes a minute to apply, provides ? healing every minute for 10 minutes"
+            ]
+        },
+        {
+            "name": "Legendary Healing Salve",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Legendary",
+            "value": 125000,
+            "weight": 2,
+            "entries": [
+                "TBD",
+                "takes a minute to apply, provides ? healing every minute for 10 minutes"
+            ]
+        },
+        {
+            "name": "Standard Healing Cannikin",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Common",
+            "value": 1500,
+            "weight": 1,
+            "entries": [
+                "TBD",
+                "Bonus action, grants 2d4+2 temp hp"
+            ]
+        },
+        {
+            "name": "Greater Healing Cannikin",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Uncommon",
+            "value": 5000,
+            "weight": 1,
+            "entries": [
+                "TBD",
+                "Bonus action, grants 4d4+4 temp hp"
+            ]
+        },
+        {
+            "name": "Wonderous Healing Cannikin",
+            "source": "M:E_Items",
+            "type": "P",
+            "rarity": "Rare",
+            "value": 20000,
+            "weight": 1,
+            "entries": [
+                "TBD",
+                "Bonus action, grants 8d4+8 temp hp"
+            ]
+        }
+    ],
     "race": [
         {
             "name": "Dweller",
