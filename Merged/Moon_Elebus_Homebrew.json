@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -25,7 +25,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -39,7 +39,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -53,7 +53,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -67,7 +67,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -81,7 +81,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -95,7 +95,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -109,7 +109,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -123,15 +123,15 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.02.14.24",
+                "version": "2024.09.02.14.28",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725287070.3493161
+        "dateLastModified": 1725287290.9834068
     },
-    "variant": [
+    "item": [
         {
             "name": "Healing Draught",
             "type": "P",
@@ -177,9 +177,7 @@
                 "{@item Wonderous Healing Cannikin|M:E_Items}"
             ],
             "source": "M:E_Items"
-        }
-    ],
-    "item": [
+        },
         {
             "name": "Twinkling Healing Draught",
             "source": "M:E_Items",

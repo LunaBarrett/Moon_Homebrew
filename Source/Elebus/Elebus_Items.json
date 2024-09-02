@@ -19,7 +19,7 @@
         "dateAdded": 0,
         "dateLastModified": 1718118454
     },
-    "variant":[
+    "item":[
         {
             "name": "Healing Draught",
             "type": "P",
@@ -62,9 +62,7 @@
                 "{@item Wonderous Healing Cannikin|M:E_Items}"
             ],
             "source": "M:E_Items"
-        }
-    ],
-    "item":[
+        },
         {
             "name": "Twinkling Healing Draught",
             "source": "M:E_Items",
