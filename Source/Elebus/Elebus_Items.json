@@ -19,7 +19,7 @@
         "dateAdded": 0,
         "dateLastModified": 1718118454
     },
-    "item":[
+    "variant":[
         {
             "name": "Healing Draught",
             "type": "P",
@@ -32,7 +32,9 @@
                 "{@item Sparkling Healing Draught|M:E_Items}0",
                 "{@item Shining Healing Draught|M:E_Items}"
             ],
-            "source": "M:E_Items"
+            "inherits": {
+                "source": "M:E_Items"
+            }
         },
         {
             "name": "Healing Salve",
@@ -47,7 +49,9 @@
                 "{@item Wonderous Healing Salve|M:E_Items}",
                 "{@item Legendary Healing Salve|M:E_Items}"
             ],
-            "source": "M:E_Items"
+            "inherits": {
+                "source": "M:E_Items"
+            }
         },
         {
             "name": "Energizing Cannikin",
@@ -61,8 +65,12 @@
                 "{@item Greater Energizing Elixer|M:E_Items}",
                 "{@item Wonderous Energizing Elixer|M:E_Items}"
             ],
-            "source": "M:E_Items"
-        },
+            "inherits": {
+                "source": "M:E_Items"
+            }
+        }
+    ],
+    "item":[
         {
             "name": "Twinkling Healing Draught",
             "source": "M:E_Items",
