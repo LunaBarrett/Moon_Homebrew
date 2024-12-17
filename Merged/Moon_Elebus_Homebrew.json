@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -25,7 +25,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -39,7 +39,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -53,7 +53,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -67,7 +67,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -81,7 +81,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -95,7 +95,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -109,7 +109,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -123,68 +123,14 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2024.09.06.12.51",
+                "version": "2024.12.17.15.57",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725627078.7221591
+        "dateLastModified": 1734451035.8718944
     },
-    "variant": [
-        {
-            "name": "Healing Draught",
-            "type": "P",
-            "rarity": "varies",
-            "entries": [
-                "One hour as part of a rest, lasts until next dawn",
-                "maxhp"
-            ],
-            "items": [
-                "{@item Twinkling Healing Draught|M:E_Items}",
-                "{@item Sparkling Healing Draught|M:E_Items}0",
-                "{@item Shining Healing Draught|M:E_Items}"
-            ],
-            "inherits": {
-                "source": "M:E_Items"
-            }
-        },
-        {
-            "name": "Healing Salve",
-            "type": "P",
-            "rarity": "varies",
-            "entries": [
-                "1 minute",
-                "healing over time"
-            ],
-            "items": [
-                "{@item Standard Healing Salve|M:E_Items}",
-                "{@item Greater Healing Salve|M:E_Items}",
-                "{@item Wonderous Healing Salve|M:E_Items}",
-                "{@item Legendary Healing Salve|M:E_Items}"
-            ],
-            "inherits": {
-                "source": "M:E_Items"
-            }
-        },
-        {
-            "name": "Energizing Cannikin",
-            "type": "P",
-            "rarity": "varies",
-            "entries": [
-                "Bonus Action",
-                "Temp hp"
-            ],
-            "items": [
-                "{@item Standard Energizing Elixer|M:E_Items}",
-                "{@item Greater Energizing Elixer|M:E_Items}",
-                "{@item Wonderous Energizing Elixer|M:E_Items}"
-            ],
-            "inherits": {
-                "source": "M:E_Items"
-            }
-        }
-    ],
     "item": [
         {
             "name": "Twinkling Healing Draught",

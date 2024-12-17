@@ -19,57 +19,6 @@
         "dateAdded": 0,
         "dateLastModified": 1718118454
     },
-    "variant":[
-        {
-            "name": "Healing Draught",
-            "type": "P",
-            "rarity": "varies",
-            "entries": [
-                "One hour as part of a rest, lasts until next dawn","maxhp"
-            ],
-            "items": [
-                "{@item Twinkling Healing Draught|M:E_Items}",
-                "{@item Sparkling Healing Draught|M:E_Items}0",
-                "{@item Shining Healing Draught|M:E_Items}"
-            ],
-            "inherits": {
-                "source": "M:E_Items"
-            }
-        },
-        {
-            "name": "Healing Salve",
-            "type": "P",
-            "rarity": "varies",
-            "entries": [
-                "1 minute","healing over time"
-            ],
-            "items": [
-                "{@item Standard Healing Salve|M:E_Items}",
-                "{@item Greater Healing Salve|M:E_Items}",
-                "{@item Wonderous Healing Salve|M:E_Items}",
-                "{@item Legendary Healing Salve|M:E_Items}"
-            ],
-            "inherits": {
-                "source": "M:E_Items"
-            }
-        },
-        {
-            "name": "Energizing Cannikin",
-            "type": "P",
-            "rarity": "varies",
-            "entries": [
-                "Bonus Action", "Temp hp"
-            ],
-            "items": [
-                "{@item Standard Energizing Elixer|M:E_Items}",
-                "{@item Greater Energizing Elixer|M:E_Items}",
-                "{@item Wonderous Energizing Elixer|M:E_Items}"
-            ],
-            "inherits": {
-                "source": "M:E_Items"
-            }
-        }
-    ],
     "item":[
         {
             "name": "Twinkling Healing Draught",
