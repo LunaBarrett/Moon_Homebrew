@@ -18,5 +18,150 @@
         ],
         "dateAdded": 0,
         "dateLastModified": 1718118454
-    }
+    },
+    "class": [
+        {
+            "name": "Necromancer",
+            "source": "M:Gen_Classes",
+            "classFeatures": [
+                ""
+            ],
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "dex",
+                "int"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "shields"
+                    ],
+                "weapons": [
+                    "simple",
+                    ""
+                ],
+                "tools":[
+
+                ]
+            },
+            "startingEquipment": {
+                "default": [
+                    ""
+                ],
+                "additionalFromBackground": true,
+                "goldAlternative": ""
+            },
+            "casterProgression": "pact",
+            "spellcastingAbility": "int",
+            "classSpells": [
+                "Acid Splash",
+                "Blade Ward",
+                "Chill Touch",
+                "Frostbite|XGE",
+                "Infestation|XGE",
+                "Mage Hand",
+                "Mending",
+                "Mold Earth|XGE",
+                "Poison Spray",
+                "Ray of Frost",
+                "Root Grab|ObojimaTallGrass",
+                "Sapping Sting|EGW",
+                "Task|ObojimaTallGrass",
+                "Thorn Whip",
+                "Toll the Dead"
+
+            ],
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "section",
+                        "name": "",
+                        "entries": [
+                            ""
+                        ]
+                    }
+                ],
+                "images":[
+                    {
+                        "type": "external",
+                        "href": {
+                            "type": "external",
+                            "url": "https://"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "",
+            "source": "M:Gen_Classes",
+            "className": "",
+            "classSource": "",
+            "level": 0,
+            "entries": [
+                ""
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Grave of the Bone",
+            "source": "M:Gen_Classes",
+            "className": "Necromancer",
+            "classSource": "M:Gen_Classes",
+            "shortName": "N|Bone",
+            "subclassFeatures": [
+                ""
+            ]
+        },
+        {
+            "name": "Grave of the Flesh",
+            "source": "M:Gen_Classes",
+            "className": "Necromancer",
+            "classSource": "M:Gen_Classes",
+            "shortName": "Flesh",
+            "subclassFeatures": [
+                ""
+            ]
+        },
+        {
+            "name": "Grave of the Spirit",
+            "source": "M:Gen_Classes",
+            "className": "Necromancer",
+            "classSource": "M:Gen_Classes",
+            "shortName": "Spirit",
+            "subclassFeatures": [
+                ""
+            ]
+        },
+        {
+            "name": "Grave of the Self",
+            "source": "M:Gen_Classes",
+            "className": "Necromancer",
+            "classSource": "M:Gen_Classes",
+            "shortName": "Self",
+            "subclassFeatures": [
+                ""
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "",
+            "source": "",
+            "className": "",
+            "classSource": "",
+            "subclassShortName": "",
+            "subclassSource": "",
+            "level": 1,
+            "entries": [
+                ""
+            ]
+        }
+    ]
 }
