@@ -74,7 +74,7 @@
                 "Task|ObojimaTallGrass",
                 "Thorn Whip",
                 "Toll the Dead",
-                "Level 1",
+
                 "Armament|ObojimaTallGrass",
                 "Arms of Hadar",
                 "Bane",
@@ -94,7 +94,7 @@
                 "Snare|XGE",
                 "Tasha's Hideous Laughter",
                 "Unseen Servant",
-                "Level 2",
+
                 "Arcane Vigor",
                 "Blindness/Deafness",
                 "Crown of Madness",
@@ -119,7 +119,7 @@
                 "Spike Growth",
                 "Web",
                 "Wither and Bloom|SCC",
-                "Level 3",
+
                 "Animate Dead",
                 "Antagonize|BMT",
                 "Bestow Curse",
@@ -138,7 +138,7 @@
                 "Stinking Cloud",
                 "Summon Undead",
                 "Vampiric Touch",
-                "Level 4",
+
                 "Banishment",
                 "Blight",
                 "Death Ward",
@@ -155,7 +155,7 @@
                 "Stone Shape",
                 "Stoneskin",
                 "Vitriolic Sphere",
-                "Level 5",
+
                 "Antilife Shell",
                 "Bigby's Hand",
                 "Cloudkill",
@@ -214,6 +214,9 @@
             "shortName": "N|Bone",
             "subclassFeatures": [
                 ""
+            ],
+            "subclassSpells": [
+                
             ]
         },
         {
@@ -224,6 +227,9 @@
             "shortName": "Flesh",
             "subclassFeatures": [
                 ""
+            ],
+            "subclassSpells": [
+                
             ]
         },
         {
@@ -234,6 +240,18 @@
             "shortName": "Spirit",
             "subclassFeatures": [
                 ""
+            ],
+            "subclassSpells": [
+                "Pacify Person|ObojimaTallGrass",
+                "Dissonant Whispers",
+                "Borrowed Knowledge|SCC",
+                "Phantasmal Force",
+                "Hypnotic Pattern",
+                "Enemies Abound|XGE",
+                "Compulsion",
+                "Spirit of Death|BMT",
+                "Dominate Person",
+                "Geas"
             ]
         },
         {
@@ -244,6 +262,9 @@
             "shortName": "Self",
             "subclassFeatures": [
                 ""
+            ],
+            "subclassSpells": [
+                
             ]
         }
     ],
