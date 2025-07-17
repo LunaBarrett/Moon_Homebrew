@@ -59,8 +59,10 @@
             "classSpells": [
                 "Acid Splash",
                 "Blade Ward",
+                "Booming Blade|TCE",
                 "Chill Touch",
                 "Frostbite|XGE",
+                "Green Flame Blade|TCE",
                 "Infestation|XGE",
                 "Mage Hand",
                 "Mending",
@@ -71,7 +73,9 @@
                 "Sapping Sting|EGW",
                 "Task|ObojimaTallGrass",
                 "Thorn Whip",
-                "Toll the Dead"
+                "Toll the Dead",
+                "",
+                ""
 
             ],
             "fluff": {
