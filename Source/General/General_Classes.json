@@ -39,7 +39,7 @@
             "classFeatures": [
 				"Necro Dice|Necromancer|M:Gen_Classes|1",
 				"Grave Magic|Necromancer|M:Gen_Classes|1",
-				"Eldritch Invocation Options|Necromancer|M:Gen_Classes|1",
+				"Necro Dice Options|Necromancer|M:Gen_Classes|1",
 				"?2|Necromancer|M:Gen_Classes|2",
 				{
 					"classFeature": "Necromancer Subclass|Necromancer|M:Gen_Classes|3",
@@ -976,6 +976,16 @@
 				}
 			]
 		},
+        {
+            "name": "Necro Dice Options",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+            "level": 1,
+            "entries"[
+                ""
+            ]
+        },
         {
 			"name": "?2",
 			"source": "M:Gen_Classes",
