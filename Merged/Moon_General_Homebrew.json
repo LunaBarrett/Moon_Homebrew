@@ -11,7 +11,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -25,7 +25,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -39,7 +39,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -53,7 +53,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -67,7 +67,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -81,7 +81,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -95,7 +95,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -109,7 +109,7 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             },
@@ -123,13 +123,13 @@
                 "convertedBy": [
                     "Moon"
                 ],
-                "version": "2025.07.18.10.40",
+                "version": "2025.07.18.10.53",
                 "url": "https://github.com/LunaBarrett/Moon_Homebrew",
                 "targetSchema": "1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1752835241.5569687
+        "dateLastModified": 1752836032.6764503
     },
     "class": [
         {
@@ -178,7 +178,7 @@
                 "?15|Necromancer|M:Gen_Classes|15",
                 "Ability Score Improvement|Necromancer|M:Gen_Classes|16",
                 "?17|Necromancer|M:Gen_Classes|17",
-                "Epic Boon|Necromancer|XPHB|19",
+                "Epic Boon|Necromancer|M:Gen_Classes|19",
                 "?20|Necromancer|M:Gen_Classes|20"
             ],
             "startingProficiencies": {
@@ -986,10 +986,7 @@
         {
             "name": "Necro Dice",
             "source": "M:Gen_Classes",
-            "page": 153,
-            "srd52": true,
-            "basicRules2024": true,
-            "className": "Warlock",
+            "className": "Necromancer",
             "classSource": "Gen_Classes",
             "level": 1,
             "entries": [
@@ -1020,7 +1017,7 @@
         {
             "name": "Grave Magic",
             "source": "M:Gen_Classes",
-            "className": "Warlock",
+            "className": "Necromancer",
             "classSource": "M:Gen_Classes",
             "level": 1,
             "entries": [
@@ -1401,7 +1398,7 @@
             "source": "M:Gen_Classes",
             "className": "Necromancer",
             "classSource": "M:Gen_Classes",
-            "subclassShortName": "Bone",
+            "subclassShortName": "Flesh",
             "subclassSource": "M:Gen_Classes",
             "level": 3,
             "header": 1,
@@ -1556,6 +1553,19 @@
             ]
         },
         {
+            "name": "?SP3",
+            "source": "M:Gen_Classes",
+            "className": "Necromancer",
+            "classSource": "M:Gen_Classes",
+            "subclassShortName": "Spirit",
+            "subclassSource": "M:Gen_Classes",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "?"
+            ]
+        },
+        {
             "name": "?SP6",
             "source": "M:Gen_Classes",
             "className": "Necromancer",
@@ -1656,6 +1666,19 @@
                         ]
                     ]
                 }
+            ]
+        },
+        {
+            "name": "?SE3",
+            "source": "M:Gen_Classes",
+            "className": "Necromancer",
+            "classSource": "M:Gen_Classes",
+            "subclassShortName": "Self",
+            "subclassSource": "M:Gen_Classes",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "?"
             ]
         },
         {
