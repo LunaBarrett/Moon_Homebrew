@@ -56,16 +56,16 @@
 					"classFeature": "Subclass Feature|Necromancer|M:Gen_Classes|10",
 					"gainSubclassFeature": true
 				},
-				"Ossuary's Memories|Necromancer|M:Gen_Classes|11",
+				"Ossuary's Spoils|Necromancer|M:Gen_Classes|11",
 				"Ability Score Improvement|Necromancer|M:Gen_Classes|12",
-				"Ossuary's Memories|Necromancer|M:Gen_Classes|13",
+				"Ossuary's Spoils|Necromancer|M:Gen_Classes|13",
 				{
 					"classFeature": "Subclass Feature|Necromancer|M:Gen_Classes|14",
 					"gainSubclassFeature": true
 				},
-				"Ossuary's Memories|Necromancer|M:Gen_Classes|15",
+				"Ossuary's Spoils|Necromancer|M:Gen_Classes|15",
 				"Ability Score Improvement|Necromancer|M:Gen_Classes|16",
-				"Ossuary's Memories|Necromancer|M:Gen_Classes|17",
+				"Ossuary's Spoils|Necromancer|M:Gen_Classes|17",
 				"Epic Boon|Necromancer|M:Gen_Classes|19",
 				"Necrolord|Necromancer|M:Gen_Classes|20"
 			],
@@ -1096,7 +1096,7 @@
 			]
 		},
 		{
-			"name": "Ossuary's Memories",
+			"name": "Ossuary's Spoils",
 			"source": "M:Gen_Classes",
 			"className": "Necromancer",
 			"classSource": "M:Gen_Classes",
@@ -1116,7 +1116,7 @@
 			]
 		},
 		{
-			"name": "Ossuary's Memories",
+			"name": "Ossuary's Spoils",
 			"source": "M:Gen_Classes",
 			"className": "Necromancer",
 			"classSource": "M:Gen_Classes",
@@ -1136,7 +1136,7 @@
 			]
 		},
 		{
-			"name": "Ossuary's Memories",
+			"name": "Ossuary's Spoils",
 			"source": "M:Gen_Classes",
 			"className": "Necromancer",
 			"classSource": "M:Gen_Classes",
@@ -1156,7 +1156,7 @@
 			]
 		},
 		{
-			"name": "Ossuary's Memories",
+			"name": "Ossuary's Spoils",
 			"source": "M:Gen_Classes",
 			"className": "Necromancer",
 			"classSource": "M:Gen_Classes",
