@@ -18,5 +18,100 @@
         ],
         "dateAdded": 0,
         "dateLastModified": 1718118454
-    }
+    },
+    "subclass": [
+        {
+            "name": "Oath of Requiem",
+            "source": "M:E_Classes",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "shortName": "Requiem",
+            "additionalSpells": [
+                			{
+					"prepared": {
+						"3": [
+							"Captivate Undead|CrookedMoon24",
+                            "Ceremony|XGE"
+						],
+						"5": [
+							"Spiritual Weapon|XPHB",
+                            "Death Armor|FRHoF"
+						],
+						"9": [
+							"Life Transference|XGE",
+                            "Speak with Dead|XPHB"
+						],
+						"13": [
+							"Aura of Life|XPHB",
+                            "Consecrate|Starlight"
+						],
+                        "17": [
+                            "Commune|XPHB",
+                            "Yolande's Regal Presence|XPHB"
+                        ]
+					}
+				}
+			],
+            "subclassFeatures": [
+                "Return to Rest|Paladin|XPHB||Requiem|M:E_Classes|3",
+                "Foot in the Grave|Paladin|XPHB|Requiem|M:E_Classes|7",
+                "Undying Sentinel|Paladin|XPHB|Requiem|M:E_Classes|15",
+                "Unmade level 20 Feature|Paladin|Requiem|XPHB|M:E_Classes|20"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Return to Rest",
+            "source": "M:E_Classes",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "subclassShortName": "Requiem",
+            "subclassSource": "M:E_Classes",
+            "level": 3,
+            "entries": [
+                "When you take the {@action Attack|XPHB} action, you can expend one use of your Channel Divinity to open up the earth the target is stood on, the creature is required to make a wisdom saving throw or swallowed up by the fresh grave. A Creature who fails the save is buried 10 foot below the surface, and are {@condition Blinded|XPHB}, {@condition Deafened|XPHB} and {@condition Restrained|XPHB}. At the beginning of each turn the creature can make an action to dig themselves out, leaving them prone. Creatures with the undead type are required to make an additional Wisdom save to attempt to dig themselves out.",
+                "A creature takes {@damage 1d8} radiant damage and {@damage 1d8} bludgeoning damage at the end of every turn they are underground.",
+                "The target automatically succeeds on its saving throw if it is not standing on the ground."
+            ]
+        },
+        {  
+            "name": "Foot in the Grave",
+            "source": "M:E_Classes",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "subclassShortName": "Requiem",
+            "subclassSource": "M:E_Classes",
+            "level": 7,
+            "entries": [
+                "At the start of your turn, One creature of your choice in your aura is knocked {@condition Prone|XPHB}, a creature with the undead type also takes {@damage {@variantrule Proficiency|XPHB|Proficiency Bonus}d4} radiant damage.",
+                "In addition, any creature's body within this aura cannot become undead."
+            ]
+        },
+                {  
+            "name": "Undying Sentinel",
+            "source": "M:E_Classes",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "subclassShortName": "Requiem",
+            "subclassSource": "M:E_Classes",
+            "level": 15,
+            "entries": [
+                "You can use a Reaction to grant a creature within 30 foot a 1d10 bonus to their AC or to a saving throw against an attack or effect.",
+                "If the creature is undead, you can instead impose a 1d10 penalty. You can do this a number of times per {@variantrule Long Rest|XPHB} equal to your Charisma Modifier (minimum of 1)"
+            ]
+        },
+                {  
+            "name": "Unmade level 20 Feature",
+            "source": "M:E_Classes",
+            "className": "Paladin",
+            "classSource": "XPHB",
+            "subclassShortName": "Requiem",
+            "subclassSource": "M:E_Classes",
+            "level": 20,
+            "entries": [
+                "WIP"
+            ]
+        }
+    ]
 }
