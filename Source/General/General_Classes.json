@@ -23,9 +23,11 @@
         {
             "name": "Necromancer",
             "source": "M:Gen_Classes",
-            "classFeatures": [
-                ""
-            ],
+            "primaryAbility": [
+				{
+					"int": true
+				}
+			],
             "hd": {
                 "number": 1,
                 "faces": 8
@@ -34,28 +36,156 @@
                 "dex",
                 "int"
             ],
-            "startingProficiencies": {
-                "armor": [
-                    "light",
-                    "shields"
-                    ],
-                "weapons": [
-                    "simple",
-                    ""
-                ],
-                "tools":[
-
-                ]
-            },
-            "startingEquipment": {
-                "default": [
-                    ""
-                ],
-                "additionalFromBackground": true,
-                "goldAlternative": ""
-            },
+            "classFeatures": [
+				"Tomb Dice|Necromancer|M:Gen_Classes|1",
+				"Grave Magic|Necromancer|M:Gen_Classes|1",
+				"Forms of the Dead|Necromancer|M:Gen_Classes|1",
+				"Soul Syphon|Necromancer|M:Gen_Classes|2",
+				{
+					"classFeature": "Necromancer Subclass|Necromancer|M:Gen_Classes|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Necromancer|M:Gen_Classes|4",
+				{
+					"classFeature": "Subclass Feature|Necromancer|M:Gen_Classes|6",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Necromancer|M:Gen_Classes|8",
+				"A Foot Beyond|Necromancer|M:Gen_Classes|9",
+				{
+					"classFeature": "Subclass Feature|Necromancer|M:Gen_Classes|10",
+					"gainSubclassFeature": true
+				},
+				"Ossuary's Spoils|Necromancer|M:Gen_Classes|11",
+				"Ability Score Improvement|Necromancer|M:Gen_Classes|12",
+				"Ossuary's Spoils|Necromancer|M:Gen_Classes|13",
+				{
+					"classFeature": "Subclass Feature|Necromancer|M:Gen_Classes|14",
+					"gainSubclassFeature": true
+				},
+				"Ossuary's Spoils|Necromancer|M:Gen_Classes|15",
+				"Ability Score Improvement|Necromancer|M:Gen_Classes|16",
+				"Ossuary's Spoils|Necromancer|M:Gen_Classes|17",
+				"Epic Boon|Necromancer|M:Gen_Classes|19",
+				"Necrolord|Necromancer|M:Gen_Classes|20"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"deception",
+								"history",
+								"intimidation",
+								"investigation",
+								"nature",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"defaultData": [
+					{
+						"A": [
+							{
+								"item": "leather armor|xphb"
+							},
+							{
+								"item": "sickle|xphb"
+							},
+							{
+								"item": "dagger|xphb",
+								"quantity": 2
+							},
+							{
+								"item": "orb|xphb"
+							},
+							{
+								"item": "book|xphb"
+							},
+							{
+								"item": "scholar's pack|xphb"
+							},
+							{
+								"value": 1500
+							}
+						],
+						"B": [
+							{
+								"value": 10000
+							}
+						]
+					}
+				],
+				"entries": [
+					"{@i Choose A or B:} (A) {@item Leather Armor|XPHB}, {@item Sickle|XPHB}, 2 {@item Dagger|XPHB|Daggers}, {@item Arcane Focus|XPHB} ({@item orb|XPHB}), {@item Book|XPHB} (occult lore), {@item Scholar's Pack|XPHB}, and 15 GP; or (B) 100 GP"
+				]
+			},
+			"multiclassing": {
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					]
+				}
+			},
             "casterProgression": "pact",
             "spellcastingAbility": "int",
+            "cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+            "preparedSpellsProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12,
+				13,
+				13,
+				14,
+				14,
+				15,
+				15
+			],
+            "preparedSpellsChange": "restLong",
             "classSpells": [
                 "Acid Splash",
                 "Blade Ward",
@@ -74,10 +204,514 @@
                 "Task|ObojimaTallGrass",
                 "Thorn Whip",
                 "Toll the Dead",
-                "",
-                ""
 
+                "Armament|ObojimaTallGrass",
+                "Arms of Hadar",
+                "Bane",
+                "Catapult|XGE",
+                "Cause Fear|XGE",
+                "Command",
+                "Detect Evil and Good",
+                "Ensnaring Strike",
+                "Find Familiar",
+                "Fog Cloud",
+                "Gift|ObojimaTallGrass",
+                "Grease",
+                "Hex",
+                "Inflict Wounds",
+                "Ray of Sickness",
+                "Sleep",
+                "Snare|XGE",
+                "Tasha's Hideous Laughter",
+                "Unseen Servant",
+
+                "Arcane Vigor",
+                "Blindness/Deafness",
+                "Crown of Madness",
+                "Darkness",
+                "Darkvision",
+                "Detect Thoughts",
+                "Earthbind|XGE",
+                "Enhance Ability",
+                "Enthrall",
+                "Gentle Repose",
+                "Hold Person",
+                "Invisibility",
+                "Levitate",
+                "Magic Mouth",
+                "Mirror Image",
+                "Misty Step",
+                "Nystul's Magic Aura",
+                "Protection from Poison",
+                "Ray of Enfeeblement",
+                "See Invisibility",
+                "Silence",
+                "Spike Growth",
+                "Web",
+                "Wither and Bloom|SCC",
+
+                "Animate Dead",
+                "Antagonize|BMT",
+                "Bestow Curse",
+                "Counterspell",
+                "Dispel Magic",
+                "Fear",
+                "Feign Death",
+                "Glyph of Warding",
+                "Hunger of Hadar",
+                "Life Transference",
+                "Meld into Stone",
+                "Nondetection",
+                "Slow",
+                "Speak with Dead",
+                "Spirit Shroud",
+                "Stinking Cloud",
+                "Summon Undead",
+                "Vampiric Touch",
+
+                "Banishment",
+                "Blight",
+                "Death Ward",
+                "Dimension Door",
+                "Evard's Black Tentacles",
+                "Freedom of Movement",
+                "Giant Insect",
+                "Grasping Vine",
+                "Mordenkainen's Private Sanctum",
+                "Phantasmal Killer",
+                "Polymorph",
+                "Shadow of Moil|XGE",
+                "Sickening Radience|XGE",
+                "Stone Shape",
+                "Stoneskin",
+                "Vitriolic Sphere",
+
+                "Antilife Shell",
+                "Bigby's Hand",
+                "Cloudkill",
+                "Contaigon",
+                "Danse Macabre|XGE",
+                "Destructive Wave",
+                "Enervation|XGE",
+                "Insect Plague",
+                "Negative Energy Flood|XGE",
+                "Raise Dead",
+                "Reincarnate",
+
+                "Harm",
+                "Soul Cage|XGE",
+
+                "Finger of Death",
+                "Resurrection",
+
+                "Abi-Dalzim's Horrid Wilting|XGE",
+                "Maze",
+
+                "Power Word Kill",
+                "Invulnerability|XGE"
             ],
+            "optionalfeatureProgression":[
+                {
+					"name": "Tomb Dice",
+					"featureType": [
+						"EI"
+					],
+					"progression": [
+						2,
+						3,
+						3,
+						4,
+						4,
+						5,
+						5,
+						6,
+						6,
+						7,
+						7,
+						8,
+						8,
+						9,
+						9,
+						10,
+						10,
+						11,
+						11,
+						12
+					]
+				},
+                {
+                    "name": "Forms of the Dead",
+                    "featureType":[
+                        "EI"
+                    ],
+                    "progression":[
+                        2,
+                        2,
+                        2,
+                        2,
+                        3,
+                        3,
+                        3,
+                        3,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        6,
+                        6,
+                        6,
+                        6
+                    ]
+                }
+            ],
+            "featProgression": [
+				{
+					"name": "Epic Boon",
+					"category": [
+						"EB"
+					],
+					"progression": {
+						"19": 1
+					}
+				}
+			],
+            "classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Tomb Dice|optionalfeatures|feature type=ei}",
+						"{@filter Cantrips|spells|level=0|class=Necromancer}",
+						"{@filter Prepared Spells|spells|level=!0|class=Necromancer}",
+						"Spell Slots",
+						"Slot Level"
+					],
+					"rows": [
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							2,
+							2,
+							1,
+							1
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							2,
+							3,
+							2,
+							1
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							2,
+							4,
+							2,
+							2
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3,
+							5,
+							2,
+							2
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3,
+							6,
+							2,
+							3
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3,
+							7,
+							2,
+							3
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3,
+							8,
+							2,
+							4
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3,
+							9,
+							2,
+							4
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3,
+							10,
+							2,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							10,
+							2,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							11,
+							3,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							11,
+							3,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							12,
+							3,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							12,
+							3,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							13,
+							3,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							13,
+							3,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							14,
+							4,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 11,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							14,
+							4,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 11,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							15,
+							4,
+							5
+						],
+						[
+                            {
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 12,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							15,
+							4,
+							5
+						]
+					]
+				}
+			],
             "fluff": {
                 "entries": [
                     {
@@ -97,31 +731,56 @@
                         }
                     }
                 ]
-            }
-        }
-    ],
-    "classFeature": [
-        {
-            "name": "",
-            "source": "M:Gen_Classes",
-            "className": "",
-            "classSource": "",
-            "level": 0,
-            "entries": [
-                ""
-            ]
+            },
+			"subclassTitle": "Necromancer Subclass",
+			"hasFluff": true,
+			"hasFluffImages": true
         }
     ],
     "subclass": [
         {
             "name": "Grave of the Bone",
+            "shortName": "Bone",
             "source": "M:Gen_Classes",
             "className": "Necromancer",
             "classSource": "M:Gen_Classes",
-            "shortName": "N|Bone",
-            "subclassFeatures": [
-                ""
-            ]
+            "additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"sacred flame|xphb#c",
+							"light|xphb#c"
+						]
+					},
+					"prepared": {
+						"3": [
+							"Pacify Person|ObojimaTallGrass",
+                            "Dissonant Whispers",
+                            "Borrowed Knowledge|SCC",
+                            "Phantasmal Force"
+						],
+						"5": [
+							"Hypnotic Pattern",
+                            "Enemies Abound|XGE"
+						],
+						"7": [
+							"Compulsion",
+                            "Spirit of Death|BMT"
+						],
+						"9": [
+							"Dominate Person",
+                            "Geas"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Grave of the Bone|Necromancer|M:Gen_Classes|Bone|M:Gen_Classes|3",
+				"?B6|Necromancer|M:Gen_Classes|Bone|M:Gen_Classes|6",
+				"?B10|Necromancer|M:Gen_Classes|Bone|M:Gen_Classes|10",
+				"?B14|Necromancer|M:Gen_Classes|Bone|M:Gen_Classes|14"
+			],
+			"hasFluffImages": true
         },
         {
             "name": "Grave of the Flesh",
@@ -129,9 +788,43 @@
             "className": "Necromancer",
             "classSource": "M:Gen_Classes",
             "shortName": "Flesh",
-            "subclassFeatures": [
-                ""
-            ]
+            "additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"sacred flame|xphb#c",
+							"light|xphb#c"
+						]
+					},
+					"prepared": {
+						"3": [
+							"Pacify Person|ObojimaTallGrass",
+                            "Dissonant Whispers",
+                            "Borrowed Knowledge|SCC",
+                            "Phantasmal Force"
+						],
+						"5": [
+							"Hypnotic Pattern",
+                            "Enemies Abound|XGE"
+						],
+						"7": [
+							"Compulsion",
+                            "Spirit of Death|BMT"
+						],
+						"9": [
+							"Dominate Person",
+                            "Geas"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Grave of the Flesh|Necromancer|M:Gen_Classes|Flesh|M:Gen_Classes|3",
+				"?F6|Necromancer|M:Gen_Classes|Flesh|M:Gen_Classes|6",
+				"?F10|Necromancer|M:Gen_Classes|Flesh|M:Gen_Classes|10",
+				"?F14|Necromancer|M:Gen_Classes|Flesh|M:Gen_Classes|14"
+			],
+			"hasFluffImages": true
         },
         {
             "name": "Grave of the Spirit",
@@ -139,9 +832,43 @@
             "className": "Necromancer",
             "classSource": "M:Gen_Classes",
             "shortName": "Spirit",
-            "subclassFeatures": [
-                ""
-            ]
+            "additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"sacred flame|xphb#c",
+							"light|xphb#c"
+						]
+					},
+					"prepared": {
+						"3": [
+							"Pacify Person|ObojimaTallGrass",
+                            "Dissonant Whispers",
+                            "Borrowed Knowledge|SCC",
+                            "Phantasmal Force"
+						],
+						"5": [
+							"Hypnotic Pattern",
+                            "Enemies Abound|XGE"
+						],
+						"7": [
+							"Compulsion",
+                            "Spirit of Death|BMT"
+						],
+						"9": [
+							"Dominate Person",
+                            "Geas"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Grave of the Spirit|Necromancer|M:Gen_Classes|Spirit|M:Gen_Classes|3",
+				"?SP6|Necromancer|M:Gen_Classes|Spirit|M:Gen_Classes|6",
+				"?SP10|Necromancer|M:Gen_Classes|Spirit|M:Gen_Classes|10",
+				"?SP14|Necromancer|M:Gen_Classes|Spirit|M:Gen_Classes|14"
+			],
+			"hasFluffImages": true
         },
         {
             "name": "Grave of the Self",
@@ -149,22 +876,796 @@
             "className": "Necromancer",
             "classSource": "M:Gen_Classes",
             "shortName": "Self",
-            "subclassFeatures": [
-                ""
-            ]
+            "additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"sacred flame|xphb#c",
+							"light|xphb#c"
+						]
+					},
+					"prepared": {
+						"3": [
+							"Pacify Person|ObojimaTallGrass",
+                            "Dissonant Whispers",
+                            "Borrowed Knowledge|SCC",
+                            "Phantasmal Force"
+						],
+						"5": [
+							"Hypnotic Pattern",
+                            "Enemies Abound|XGE"
+						],
+						"7": [
+							"Compulsion",
+                            "Spirit of Death|BMT"
+						],
+						"9": [
+							"Dominate Person",
+                            "Geas"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Grave of the Self|Necromancer|M:Gen_Classes|Self|M:Gen_Classes|3",
+				"?SE6|Necromancer|M:Gen_Classes|Self|M:Gen_Classes|6",
+				"?SE10|Necromancer|M:Gen_Classes|Self|M:Gen_Classes|10",
+				"?SE14|Necromancer|M:Gen_Classes|Self|M:Gen_Classes|14"
+			],
+			"hasFluffImages": true
         }
     ],
-    "subclassFeature": [
+    "classFeature":[
         {
-            "name": "",
-            "source": "",
-            "className": "",
-            "classSource": "",
-            "subclassShortName": "",
-            "subclassSource": "",
+			"name": "Tomb Dice",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 1,
+			"entries": [
+				"You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"{@filter Eldritch Invocation Options|optionalfeatures|feature type=EI|source=XPHB}\" section later in this class's description.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Prerequisites",
+							"entries": [
+								"If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Replacing and Gaining Invocations",
+							"entries": [
+								"Whenever you gain a Necromancer level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have."
+							]
+						}
+					]
+				},
+				"When you gain certain Necromancer levels, you gain more invocations of your choice, as shown in the Invocations column of the Necromancer Features table.",
+				"You can't pick the same invocation more than once unless its description says otherwise."
+			]
+		},
+		{
+			"name": "Grave Magic",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 1,
+			"entries": [
+				"Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows\u2014its identity unclear\u2014but its boon to you is concrete: the ability to cast spells. See {@book chapter 7|XPHB|7} for the rules on spellcasting. The information below details how you use those rules with Necromancer spells, which appear in the {@filter Necromancer spell list|spells|class=Necromancer} later in the class's description.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cantrips",
+							"entries": [
+								"You know two Necromancer cantrips of your choice. {@spell Eldritch Blast|XPHB} and {@spell Prestidigitation|XPHB} are recommended. Whenever you gain a Necromancer level, you can replace one of your cantrips from this feature with another Necromancer cantrip of your choice.",
+								"When you reach Necromancer levels 4 and 10, you learn another Necromancer cantrip of your choice, as shown in the Cantrips column of the Necromancer Features table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Necromancer Features table shows how many spell slots you have to cast your Necromancer spells of levels 1\u20135. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+								"For example, when you're a level 5 Necromancer, you have two level 3 spell slots. To cast the level 1 spell {@spell Witch Bolt|XPHB}, you must spend one of those slots, and you cast it as a level 3 spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Prepared Spells of Level 1+",
+							"entries": [
+								"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Necromancer spells. {@spell Charm Person|XPHB} and {@spell Hex|XPHB} are recommended."
+							]
+						}
+					]
+				},
+				"The number of spells on your list increases as you gain Necromancer levels, as shown in the Prepared Spells column of the Necromancer Features table. Whenever that number increases, choose additional Necromancer spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, for example, you learn a new Necromancer spell, which can be of levels 1\u20133.",
+				"If another Necromancer feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Necromancer spells for you.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Changing Your Prepared Spells",
+							"entries": [
+								"Whenever you gain a Necromancer level, you can replace one spell on your list with another Necromancer spell of an eligible level."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Inteligence is the spellcasting ability for your Necromancer spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use an {@item Arcane Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Necromancer spells."
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+            "name": "Forms of the Dead",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
             "level": 1,
             "entries": [
-                ""
+                "start with 2, gain an aditional one at 5th, 9th, 13th and 17th (WIP TEXT)"
+            ]
+        },
+        {
+            "name": "Forms of the Dead Options",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+            "level": 1,
+            "entries":[
+                "Forms of the Dead options appear in alphabetical order.",
+                {
+                    "type": "options",
+                    "count":
+                }
+            ]
+
+        },
+        {
+			"name": "Soul Syphon",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 2,
+			"entries": [
+				"As an Action you can dismiss 3 spent Tomb Dice to regain one of your Grave Magic spell slots. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Necromancer Subclass",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 3,
+			"entries": [
+				"You gain a Necromancer subclass of your choice. A subclass is a specialization that grants you features at certain Necromancer levels. For the rest of your career, you gain each of your subclass's features that are of your Necromancer level or lower."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Necromancer levels 8, 12, and 16."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Necromancer subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "A Foot Beyond",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 9,
+			"entries": [
+                "Necromantic magic has warped your form and given you control over even your own death. you are now the Undead type (can still be resurected) (table for how form is changed)",
+                "When you would be reduced to 0 hit points or killed, you can expend all of your available Tomb Dice to be reduced to one hit point instead.",
+                "Additionally, when you make a Death Saving Throw, you can add your Intelligence modifier to the result of the roll (minimum +1), and can treat a 15 or higher on the Die as a 20"
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Necromancer subclass."
+			]
+		},
+		{
+			"name": "Ossuary's Spoils",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 11,
+			"entries": [
+                "Once per {@variantrule Long Rest|XPHB}, When you cast a Necromancer spell, you can spend 2 Tomb Dice to cast the spell at 6th level; alternatively, you can cast {@spell Harm|XPHB} or {@spell Soul Cage|XGE} instead of the original spell."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Ossuary's Spoils",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 13,
+			"entries": [
+				"Once per {@variantrule Long Rest|XPHB}, When you cast a Necromancer spell, you can spend 4 Tomb Dice to cast the spell at 7th level; alternatively, you can cast {@spell Finger of Death|XPHB} or {@spell Resurrection|XPHB} instead of the original spell."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Necromancer subclass."
+			]
+		},
+		{
+			"name": "Ossuary's Spoils",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 15,
+			"entries": [
+				"Once per {@variantrule Long Rest|XPHB}, When you cast a Necromancer spell, you can spend 6 Tomb Dice to cast the spell at 8th level; alternatively, you can cast {@spell Abi-Dalzim's Horrid Wilting|XGE} or {@spell Maze|XPHB} instead of the original spell."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} Feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Ossuary's Spoils",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 17,
+			"entries": [
+				"Once per {@variantrule Long Rest|XPHB}, When you cast a Necromancer spell, you can spend 6 Tomb Dice to cast the spell at 9th level; alternatively, you can cast {@spell Power Word Kill|XPHB} or {@spell Invulnerability|XGE} instead of the original spell."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 19,
+			"entries": [
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Fate|XPHB} is recommended."
+			]
+		},
+		{
+			"name": "Necrolord",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"level": 20,
+			"entries": [
+				"Your control over death has become such that even the gods would struggle to kill you.",
+                "If you roll a number that isn't 1 on a Death Saving Throw, you can turn it into a 20 instead. If you roll a 1, you fail only one Death Saving Throw instead of two.",
+                "Additionally, any Tomb Dice in use remain in use, instead of returning to you (last bit depends on wording of tomb dice)"
+			]
+		}
+    ],
+    "subclassFeature": [
+		{
+			"name": "Grave of the Bone",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Bone",
+			"subclassSource": "M:Gen_Classes",
+			"level": 3,
+			"entries": [
+				"{@i Bargain with Whimsical Fey}",
+				"Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and {@variantrule Darkness|XPHB}, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bone Spells|Necromancer|M:Gen_Classes|Bone|M:Gen_Classes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "?B3|Necromancer|M:Gen_Classes|Bone|M:Gen_Classes|3"
+				}
+			]
+		},
+		{
+			"name": "Bone Spells",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Bone",
+			"subclassSource": "M:Gen_Classes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your connection to a form of undeath ensures you always have certain spells ready; when you reach a Necromancer level specified in the Bone Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Bone Spells",
+					"colLabels": [
+						"Necromancer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3",
+							"{@spell Pacify Person|ObojimaTallGrass}, {@spell Dissonant Whispers|XPHB}, {@spell Borrowed Knowledge|SCC}, {@spell Phantasmal Force|XPHB}"
+						],
+						[
+							"5",
+							"{@spell Hypnotic Pattern|XPHB}, {@spell Enemies Abound|XGE}"
+						],
+						[
+							"7",
+							"{@spell Compulsion|XPHB}, {@spell Spirit of Death|BMT}"
+						],
+						[
+							"9",
+							"{@spell Dominate Person|XPHB}, {@spell Geas|XPHB}"
+						]
+					]
+				}
+			]
+		},
+        {
+            "name": "?B3",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Bone",
+			"subclassSource": "M:Gen_Classes",
+            "level": 3,
+            "header": 1,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?B6",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Bone",
+			"subclassSource": "M:Gen_Classes",
+            "level": 6,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?B10",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Bone",
+			"subclassSource": "M:Gen_Classes",
+            "level": 10,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?B14",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Bone",
+			"subclassSource": "M:Gen_Classes",
+            "level": 14,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+			"name": "Grave of the Flesh",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Flesh",
+			"subclassSource": "M:Gen_Classes",
+			"level": 3,
+			"entries": [
+				"{@i Bargain with Whimsical Fey}",
+				"Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and {@variantrule Darkness|XPHB}, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Flesh Spells|Necromancer|M:Gen_Classes|Flesh|M:Gen_Classes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "?F3|Necromancer|M:Gen_Classes|Flesh|M:Gen_Classes|3"
+				}
+			]
+		},
+		{
+			"name": "Flesh Spells",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Flesh",
+			"subclassSource": "M:Gen_Classes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your connection to a form of undeath ensures you always have certain spells ready; when you reach a Necromancer level specified in the Flesh Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Bone Spells",
+					"colLabels": [
+						"Necromancer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3",
+							"{@spell Pacify Person|ObojimaTallGrass}, {@spell Dissonant Whispers|XPHB}, {@spell Borrowed Knowledge|SCC}, {@spell Phantasmal Force|XPHB}"
+						],
+						[
+							"5",
+							"{@spell Hypnotic Pattern|XPHB}, {@spell Enemies Abound|XGE}"
+						],
+						[
+							"7",
+							"{@spell Compulsion|XPHB}, {@spell Spirit of Death|BMT}"
+						],
+						[
+							"9",
+							"{@spell Dominate Person|XPHB}, {@spell Geas|XPHB}"
+						]
+					]
+				}
+			]
+		},
+        {
+            "name": "?F3",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Flesh",
+			"subclassSource": "M:Gen_Classes",
+            "level": 3,
+            "header": 1,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?F6",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Flesh",
+			"subclassSource": "M:Gen_Classes",
+            "level": 6,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?F10",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Flesh",
+			"subclassSource": "M:Gen_Classes",
+            "level": 10,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?F14",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Flesh",
+			"subclassSource": "M:Gen_Classes",
+            "level": 14,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+			"name": "Grave of the Spirit",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Spirit",
+			"subclassSource": "M:Gen_Classes",
+			"level": 3,
+			"entries": [
+				"{@i Bargain with Whimsical Fey}",
+				"Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and {@variantrule Darkness|XPHB}, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirit Spells|Necromancer|M:Gen_Classes|Spirit|M:Gen_Classes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "?SP3|Necromancer|M:Gen_Classes|Spirit|M:Gen_Classes|3"
+				}
+			]
+		},
+		{
+			"name": "Spirit Spells",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Spirit",
+			"subclassSource": "M:Gen_Classes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your connection to a form of undeath ensures you always have certain spells ready; when you reach a Necromancer level specified in the Spirit Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Spirit Spells",
+					"colLabels": [
+						"Necromancer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3",
+							"{@spell Pacify Person|ObojimaTallGrass}, {@spell Dissonant Whispers|XPHB}, {@spell Borrowed Knowledge|SCC}, {@spell Phantasmal Force|XPHB}"
+						],
+						[
+							"5",
+							"{@spell Hypnotic Pattern|XPHB}, {@spell Enemies Abound|XGE}"
+						],
+						[
+							"7",
+							"{@spell Compulsion|XPHB}, {@spell Spirit of Death|BMT}"
+						],
+						[
+							"9",
+							"{@spell Dominate Person|XPHB}, {@spell Geas|XPHB}"
+						]
+					]
+				}
+			]
+		},
+        {
+            "name": "?SP3",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Spirit",
+			"subclassSource": "M:Gen_Classes",
+            "level": 3,
+            "header": 1,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?SP6",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Spirit",
+			"subclassSource": "M:Gen_Classes",
+            "level": 6,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?SP10",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Spirit",
+			"subclassSource": "M:Gen_Classes",
+            "level": 10,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?SP14",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Spirit",
+			"subclassSource": "M:Gen_Classes",
+            "level": 14,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+			"name": "Grave of the Self",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Self",
+			"subclassSource": "M:Gen_Classes",
+			"level": 3,
+			"entries": [
+				"{@i Bargain with Whimsical Fey}",
+				"Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and {@variantrule Darkness|XPHB}, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Self Spells|Necromancer|M:Gen_Classes|Self|M:Gen_Classes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "?SE3|Necromancer|M:Gen_Classes|Self|M:Gen_Classes|3"
+				}
+			]
+		},
+		{
+			"name": "Self Spells",
+			"source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Self",
+			"subclassSource": "M:Gen_Classes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your connection to a form of undeath ensures you always have certain spells ready; when you reach a Necromancer level specified in the Self Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Self Spells",
+					"colLabels": [
+						"Necromancer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3",
+							"{@spell Pacify Person|ObojimaTallGrass}, {@spell Dissonant Whispers|XPHB}, {@spell Borrowed Knowledge|SCC}, {@spell Phantasmal Force|XPHB}"
+						],
+						[
+							"5",
+							"{@spell Hypnotic Pattern|XPHB}, {@spell Enemies Abound|XGE}"
+						],
+						[
+							"7",
+							"{@spell Compulsion|XPHB}, {@spell Spirit of Death|BMT}"
+						],
+						[
+							"9",
+							"{@spell Dominate Person|XPHB}, {@spell Geas|XPHB}"
+						]
+					]
+				}
+			]
+		},
+        {
+            "name": "?SE3",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Self",
+			"subclassSource": "M:Gen_Classes",
+            "level": 3,
+            "header": 1,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?SE6",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Self",
+			"subclassSource": "M:Gen_Classes",
+            "level": 6,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?SE10",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Self",
+			"subclassSource": "M:Gen_Classes",
+            "level": 10,
+            "header": 2,
+            "entries":[
+                "?"
+            ]
+        },
+        {
+            "name": "?SE14",
+            "source": "M:Gen_Classes",
+			"className": "Necromancer",
+			"classSource": "M:Gen_Classes",
+			"subclassShortName": "Self",
+			"subclassSource": "M:Gen_Classes",
+            "level": 14,
+            "header": 2,
+            "entries":[
+                "?"
             ]
         }
     ]
