@@ -18,5 +18,132 @@
         ],
         "dateAdded": 0,
         "dateLastModified": 1718118454
-    }
+    },
+    "race": [
+        {
+            "name": "Umbralite",
+            "source": "M:Gen_Races",
+            "creatureTypes":[
+                "construct"
+            ],
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "ability": [
+		        {
+			        "choose": {
+				        "weighted": {
+					        "from": [
+						        "str",
+						        "dex",
+						        "con",
+						        "int",
+						        "wis",
+						        "cha"
+					        ],
+					        "weights": [
+						        2,
+						        1
+					        ]
+				        }
+			        }
+		        },
+                {
+                    "choose": {
+                        "weighted": {
+                            "from": [
+                                "str",
+                                "dex",
+                                "con",
+                                "int",
+                                "wis",
+                                "cha"
+                            ],
+                            "weights": [
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    }
+                }
+            ],
+            "darkvision": 60,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "mason's tools": true
+                }
+            ],
+            "resists": [
+                "necrotic"
+            ],
+            "sizeEntry": {
+		        "type": "item",
+		        "name": "Size:",
+		        "entries": [
+			        "Medium (about 6-8 feet tall) or Small (about 3-4 feet tall), chosen when you select this species"
+		            ]
+	        },
+            "entries":[
+                {
+					"type": "entries",
+					"name": "Techno-Optics",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+                {
+                    "type": "entries",
+                    "name": "Digital Transferance",
+                    "entries": [
+                        "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+                        "Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent."
+                        ]
+                },
+                {
+			        "type": "entries",
+			        "name": "Artificial Construction",
+			        "entries": [
+				    "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+			        ]
+		        },
+                {
+			        "type": "entries",
+			        "name": "Automated Rest",
+			        "entries": [
+				        "You don't need to sleep, and magic can't put you to sleep. You can finish a {@variantrule Long Rest|XPHB} in 6 hours if you spend those hours in an inactive, motionless state. During this time, you appear inert but remain conscious."
+			        ]
+		        },
+		        {
+			        "type": "entries",
+			        "name": "Tireless",
+			        "entries": [
+				        "You don't gain {@condition Exhaustion|XPHB} levels from dehydration, malnutrition, or suffocation."
+			        ]
+		        },
+                {
+			        "type": "entries",
+			        "name": "Metalic Soul",
+			        "entries": [
+				        "You have resistance to necrotic damage."
+			        ]
+		        },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+                    ]
+                }
+            ]
+        }
+    ]
 }
